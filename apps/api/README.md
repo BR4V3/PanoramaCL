@@ -10,3 +10,4 @@ Backend de PanoramaCL.
 - src/modules/admin: operaciones administrativas
 - src/common: middlewares, filtros, utilidades comunes
 - src/database: ORM, migraciones y seeds
+Actualizacion del texto para probar.
