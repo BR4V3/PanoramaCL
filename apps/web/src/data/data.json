@@ -1,0 +1,182 @@
+[
+  {
+    "id": "parque-bicentenario",
+    "name": "Parque Bicentenario",
+    "description": "Green urban park with lagoons, wide paths and picnic zones.",
+    "category": "nature",
+    "type": "familia",
+    "price": 0,
+    "schedule": "Every day · 06:00 - 22:00",
+    "location": {
+      "lat": -33.4042,
+      "lng": -70.6003,
+      "commune": "Vitacura",
+      "address": "Av. Bicentenario 3236"
+    }
+  },
+  {
+    "id": "cerro-san-cristobal",
+    "name": "Cerro San Cristobal",
+    "description": "Classic viewpoint over Santiago with trails and cable car access.",
+    "category": "nature",
+    "type": "amigos",
+    "price": 3500,
+    "schedule": "Every day · 10:00 - 19:30",
+    "location": {
+      "lat": -33.4199,
+      "lng": -70.6306,
+      "commune": "Providencia",
+      "address": "Pio Nono 450"
+    }
+  },
+  {
+    "id": "lastarria-walk",
+    "name": "Lastarria Cultural Walk",
+    "description": "Street art, bookstores and architecture near Barrio Lastarria.",
+    "category": "culture",
+    "type": "pareja",
+    "price": 0,
+    "schedule": "Every day · 12:00 - 21:00",
+    "location": {
+      "lat": -33.4389,
+      "lng": -70.6417,
+      "commune": "Santiago",
+      "address": "Jose Victorino Lastarria 100"
+    }
+  },
+  {
+    "id": "museo-bellas-artes",
+    "name": "Museo Nacional de Bellas Artes",
+    "description": "Historic museum with rotating exhibitions and Chilean art.",
+    "category": "culture",
+    "type": "solo",
+    "price": 0,
+    "schedule": "Tue-Sun · 10:00 - 18:30",
+    "location": {
+      "lat": -33.4372,
+      "lng": -70.6401,
+      "commune": "Santiago",
+      "address": "Jose Miguel de la Barra 650"
+    }
+  },
+  {
+    "id": "patio-bellavista",
+    "name": "Patio Bellavista",
+    "description": "Open-air food court with local and international cuisine.",
+    "category": "food",
+    "type": "amigos",
+    "price": 18000,
+    "schedule": "Every day · 13:00 - 01:00",
+    "location": {
+      "lat": -33.4331,
+      "lng": -70.634,
+      "commune": "Providencia",
+      "address": "Constitucion 30"
+    }
+  },
+  {
+    "id": "mercado-central",
+    "name": "Mercado Central",
+    "description": "Traditional seafood and local flavors in a heritage building.",
+    "category": "food",
+    "type": "familia",
+    "price": 22000,
+    "schedule": "Every day · 10:00 - 22:00",
+    "location": {
+      "lat": -33.433,
+      "lng": -70.6492,
+      "commune": "Santiago",
+      "address": "San Pablo 967"
+    }
+  },
+  {
+    "id": "sky-costanera",
+    "name": "Sky Costanera",
+    "description": "360 degree rooftop viewpoint in the tallest tower in Chile.",
+    "category": "culture",
+    "type": "pareja",
+    "price": 16000,
+    "schedule": "Every day · 10:00 - 22:00",
+    "location": {
+      "lat": -33.4174,
+      "lng": -70.6063,
+      "commune": "Providencia",
+      "address": "Av. Andres Bello 2425"
+    }
+  },
+  {
+    "id": "movistar-arena",
+    "name": "Movistar Arena",
+    "description": "Large venue for concerts and major live events.",
+    "category": "nightlife",
+    "type": "amigos",
+    "price": 28000,
+    "schedule": "Event based schedule",
+    "location": {
+      "lat": -33.4665,
+      "lng": -70.6614,
+      "commune": "Santiago",
+      "address": "Parque O'Higgins"
+    }
+  },
+  {
+    "id": "club-la-feria",
+    "name": "Club La Feria",
+    "description": "Electronic music club known for underground sessions.",
+    "category": "nightlife",
+    "type": "pareja",
+    "price": 12000,
+    "schedule": "Fri-Sat · 23:00 - 05:00",
+    "location": {
+      "lat": -33.4543,
+      "lng": -70.6078,
+      "commune": "Nunoa",
+      "address": "Av. Italia 1183"
+    }
+  },
+  {
+    "id": "estadio-nacional",
+    "name": "Estadio Nacional Tour",
+    "description": "Guided experience through one of Chile's iconic sports venues.",
+    "category": "sport",
+    "type": "familia",
+    "price": 8000,
+    "schedule": "Sat-Sun · 11:00 - 17:00",
+    "location": {
+      "lat": -33.4647,
+      "lng": -70.6102,
+      "commune": "Nunoa",
+      "address": "Av. Grecia 2001"
+    }
+  },
+  {
+    "id": "bike-mapocho42k",
+    "name": "Mapocho 42K Bike Route",
+    "description": "Urban cycle route along the river with multiple entry points.",
+    "category": "sport",
+    "type": "solo",
+    "price": 0,
+    "schedule": "Every day · Open access",
+    "location": {
+      "lat": -33.425,
+      "lng": -70.6628,
+      "commune": "Quinta Normal",
+      "address": "Costanera Sur Access"
+    }
+  },
+  {
+    "id": "quinta-normal-park",
+    "name": "Quinta Normal Park",
+    "description": "Wide public park ideal for relaxed afternoons and family plans.",
+    "category": "nature",
+    "type": "familia",
+    "price": 0,
+    "schedule": "Every day · 07:00 - 20:30",
+    "location": {
+      "lat": -33.4376,
+      "lng": -70.6811,
+      "commune": "Quinta Normal",
+      "address": "Matucana 520"
+    }
+  }
+]

@@ -1,0 +1,261 @@
+:root {
+  color-scheme: light;
+  --bg: #f3f4ef;
+  --panel: #f9f9f6;
+  --stroke: #d7d9d1;
+  --text: #29303a;
+  --muted: #66717d;
+  --accent: #5f7a68;
+  --accent-soft: #dce7de;
+  --radius: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Avenir Next', 'Helvetica Neue', sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 15% 10%, #e6ece0 0%, transparent 38%),
+    radial-gradient(circle at 85% 80%, #ece7dd 0%, transparent 40%),
+    var(--bg);
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(300px, 380px) 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.control-panel,
+.map-shell {
+  border: 1px solid var(--stroke);
+  border-radius: var(--radius);
+  background: var(--panel);
+}
+
+.control-panel {
+  padding: 1.1rem;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  gap: 1rem;
+  max-height: calc(100vh - 2rem);
+}
+
+.app-header p {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+
+.app-header h1 {
+  margin: 0.45rem 0 0;
+  font-size: 1.25rem;
+  line-height: 1.35;
+  max-width: 25ch;
+}
+
+.panel-section {
+  border: 1px solid var(--stroke);
+  border-radius: 14px;
+  padding: 0.85rem;
+  background: #fff;
+}
+
+.section-headline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.65rem;
+}
+
+.section-headline h2 {
+  margin: 0;
+  font-size: 0.96rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.82rem;
+  margin-bottom: 0.75rem;
+  color: var(--muted);
+}
+
+.field select,
+.field input[type='range'] {
+  width: 100%;
+}
+
+.field select {
+  height: 2.1rem;
+  border-radius: 10px;
+  border: 1px solid var(--stroke);
+  padding: 0 0.55rem;
+  color: var(--text);
+  background: #fff;
+}
+
+.primary-button,
+.text-button {
+  border: 0;
+  cursor: pointer;
+}
+
+.primary-button {
+  width: 100%;
+  height: 2.2rem;
+  border-radius: 10px;
+  background: var(--accent);
+  color: #fff;
+  transition: transform 0.15s ease, opacity 0.2s ease;
+}
+
+.primary-button:hover {
+  transform: translateY(-1px);
+}
+
+.primary-button:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.text-button {
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.pill {
+  min-width: 1.6rem;
+  height: 1.45rem;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.75rem;
+}
+
+.results-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: min(43vh, 390px);
+  overflow: auto;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.results-list li {
+  border: 1px solid var(--stroke);
+  border-radius: 10px;
+  padding: 0.6rem;
+  background: #fdfdfc;
+}
+
+.results-list h3 {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.results-list p,
+.results-list small {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+}
+
+.map-panel {
+  min-height: calc(100vh - 2rem);
+}
+
+.map-shell,
+.map-view {
+  height: 100%;
+}
+
+.map-view {
+  border-radius: var(--radius);
+}
+
+.custom-marker-wrapper {
+  background: transparent;
+  border: 0;
+}
+
+.custom-marker {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: block;
+  background: var(--marker-color);
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 0 1px rgba(38, 44, 57, 0.17), 0 10px 20px rgba(45, 52, 62, 0.2);
+}
+
+.popup-card {
+  display: grid;
+  gap: 0.45rem;
+  min-width: 210px;
+}
+
+.popup-card h3 {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.popup-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.popup-card ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.3rem;
+}
+
+.popup-card li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.78rem;
+}
+
+.popup-card li span {
+  color: var(--muted);
+}
+
+.popup-card small {
+  color: var(--muted);
+  font-size: 0.74rem;
+}
+
+@media (max-width: 950px) {
+  .app-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .control-panel {
+    max-height: none;
+  }
+
+  .results-list {
+    max-height: 220px;
+  }
+
+  .map-panel {
+    min-height: 62vh;
+  }
+}
