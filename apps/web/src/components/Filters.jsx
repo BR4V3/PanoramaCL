@@ -2,7 +2,6 @@ function Filters({
   filters,
   categoryOptions,
   typeOptions,
-  maxPrice,
   onFilterChange,
   onReset,
   onLocateMe,
@@ -44,15 +43,25 @@ function Filters({
         </select>
       </label>
 
+      <label className="field field-inline">
+        <input
+          type="checkbox"
+          checked={filters.nearMe}
+          onChange={(event) => onFilterChange('nearMe', event.target.checked)}
+        />
+        Enable near me radius
+      </label>
+
       <label className="field">
-        Max price: {filters.maxPrice === maxPrice ? 'No limit' : `$${filters.maxPrice.toLocaleString('es-CL')}`}
+        Distance radius: {filters.distanceKm} km
         <input
           type="range"
-          min="0"
-          max={maxPrice}
-          step="1000"
-          value={filters.maxPrice}
-          onChange={(event) => onFilterChange('maxPrice', Number(event.target.value))}
+          min="1"
+          max="20"
+          step="1"
+          value={filters.distanceKm}
+          onChange={(event) => onFilterChange('distanceKm', Number(event.target.value))}
+          disabled={!filters.nearMe}
         />
       </label>
 

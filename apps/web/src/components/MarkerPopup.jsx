@@ -14,10 +14,10 @@ function MarkerPopup({ panorama }) {
         </li>
         <li>
           <span>Best for</span>
-          <strong>{panorama.type}</strong>
+          <strong>{(panorama.types || [panorama.type]).join(', ')}</strong>
         </li>
       </ul>
-      <small>{panorama.schedule}</small>
+      {panorama.featured ? <small>Panorama destacado</small> : null}
     </article>
   );
 }

@@ -4,15 +4,21 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "predev": "node scripts/fetchOSM.js",
     "dev": "vite",
+    "prebuild": "node scripts/fetchOSM.js",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "fetch:data": "node scripts/fetchOSM.js"
   },
   "dependencies": {
+    "firebase": "^12.12.1",
     "leaflet": "^1.9.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-leaflet": "^4.2.1"
+    "react-leaflet": "^4.2.1",
+    "react-leaflet-markercluster": "^4.2.1",
+    "react-router-dom": "^7.14.2"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.4.1",
