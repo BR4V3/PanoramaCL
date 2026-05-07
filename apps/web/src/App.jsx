@@ -194,7 +194,6 @@ function App() {
                 />
 
                 <Sidebar panoramas={filteredData} selectedId={selectedPlace?.id} onSelect={handleSelectPlace} />
-                <DetailPanel panorama={selectedPlace} />
               </>
             }
           />
@@ -212,7 +211,6 @@ function App() {
                   onUpdate={handleUpdatePanorama}
                   onDelete={handleDeletePanorama}
                 />
-                <DetailPanel panorama={selectedPlace} />
               </>
             }
           />
@@ -247,6 +245,10 @@ function App() {
           />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
+
+        <div className="map-detail-floating">
+          <DetailPanel panorama={selectedPlace} />
+        </div>
       </main>
     </div>
   );

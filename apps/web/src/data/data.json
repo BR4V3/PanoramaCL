@@ -8997,8 +8997,8 @@
       "direccion": "",
       "comuna": "Santiago",
       "region": "RM",
-      "lat": -33.4726905,
-      "lng": -70.6059504
+      "lat": -33.4726792,
+      "lng": -70.6059105
     },
     "tags": [
       "leisure",
@@ -23219,7 +23219,7 @@
       "comuna": "Santiago",
       "region": "RM",
       "lat": -33.4419728,
-      "lng": -70.7478779
+      "lng": -70.7478867
     },
     "tags": [
       "leisure",
@@ -28110,6 +28110,64 @@
   },
   {
     "id": 916,
+    "nombre": "Plaza Misti",
+    "descripcion": "",
+    "categoria": "aire_libre",
+    "subcategoria": "parque",
+    "tipo": [
+      "solo",
+      "pareja",
+      "familia"
+    ],
+    "precio": {
+      "tipo": "gratis",
+      "valor": 0,
+      "moneda": "CLP"
+    },
+    "ubicacion": {
+      "direccion": "",
+      "comuna": "Santiago",
+      "region": "RM",
+      "lat": -33.5129102,
+      "lng": -70.5969055
+    },
+    "tags": [
+      "leisure",
+      "name"
+    ],
+    "fuente": "openstreetmap"
+  },
+  {
+    "id": 917,
+    "nombre": "Plaza El Solsticio",
+    "descripcion": "",
+    "categoria": "aire_libre",
+    "subcategoria": "parque",
+    "tipo": [
+      "solo",
+      "pareja",
+      "familia"
+    ],
+    "precio": {
+      "tipo": "gratis",
+      "valor": 0,
+      "moneda": "CLP"
+    },
+    "ubicacion": {
+      "direccion": "",
+      "comuna": "Santiago",
+      "region": "RM",
+      "lat": -33.5130273,
+      "lng": -70.5951946
+    },
+    "tags": [
+      "leisure",
+      "name"
+    ],
+    "fuente": "openstreetmap"
+  },
+  {
+    "id": 918,
     "nombre": "Plaza Lanalhue",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28138,7 +28196,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 917,
+    "id": 919,
     "nombre": "Barrio Grecia",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28167,7 +28225,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 918,
+    "id": 920,
     "nombre": "Barrio Grecia",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28196,7 +28254,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 919,
+    "id": 921,
     "nombre": "Plaza Punta de Rieles",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28226,7 +28284,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 920,
+    "id": 922,
     "nombre": "Las 2 Plazas",
     "descripcion": "Juegos infantiles y maquinas de ejercicios.",
     "categoria": "aire_libre",
@@ -28261,7 +28319,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 921,
+    "id": 923,
     "nombre": "Plaza Biel",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28291,7 +28349,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 922,
+    "id": 924,
     "nombre": "Plaza Bellinzona",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28321,7 +28379,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 923,
+    "id": 925,
     "nombre": "Parque Barrio Villa El Esfuerzo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28351,7 +28409,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 924,
+    "id": 926,
     "nombre": "Parque Teniente Merino",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28380,7 +28438,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 925,
+    "id": 927,
     "nombre": "Plaza de Vaitea",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28410,7 +28468,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 926,
+    "id": 928,
     "nombre": "Plaza de Rapa Nui",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28440,7 +28498,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 927,
+    "id": 929,
     "nombre": "Plaza de Manutara",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28470,7 +28528,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 928,
+    "id": 930,
     "nombre": "Bandejón Avenida Colón",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28500,7 +28558,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 929,
+    "id": 931,
     "nombre": "Bandejón Avenida Colón",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28530,7 +28588,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 930,
+    "id": 932,
     "nombre": "Plaza Los Caracoles",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28563,7 +28621,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 931,
+    "id": 933,
     "nombre": "Parque Ignacio Carrera Pinto",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28592,7 +28650,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 932,
+    "id": 934,
     "nombre": "Plaza Jorge Prieto",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28622,7 +28680,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 933,
+    "id": 935,
     "nombre": "Centro Nacional de Arte Contemporáneo de Los Cerrillos",
     "descripcion": "es:Centro Nacional de Arte Contemporáneo Cerrillos",
     "categoria": "cultura",
@@ -28658,7 +28716,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 934,
+    "id": 936,
     "nombre": "Plazoleta Las Hualtatas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28687,7 +28745,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 935,
+    "id": 937,
     "nombre": "Plaza Los Patos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28717,7 +28775,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 936,
+    "id": 938,
     "nombre": "Bandejón Avenida Colón",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28747,7 +28805,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 937,
+    "id": 939,
     "nombre": "Plaza Miraflores",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28777,7 +28835,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 938,
+    "id": 940,
     "nombre": "Plaza Clara Solovera",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28808,7 +28866,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 939,
+    "id": 941,
     "nombre": "Parque de la Alegría",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28841,7 +28899,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 940,
+    "id": 942,
     "nombre": "Plazoleta Abel Aravena",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28871,7 +28929,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 941,
+    "id": 943,
     "nombre": "Plaza Lo Encalada",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28901,7 +28959,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 942,
+    "id": 944,
     "nombre": "Plazoleta Ibiza",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28930,7 +28988,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 943,
+    "id": 945,
     "nombre": "Plaza Pinto Durán",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28960,7 +29018,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 944,
+    "id": 946,
     "nombre": "Plaza Ejercicios",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -28991,7 +29049,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 945,
+    "id": 947,
     "nombre": "Plaza Yugoslavia",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29021,7 +29079,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 946,
+    "id": 948,
     "nombre": "Plaza Veracruz",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29054,7 +29112,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 947,
+    "id": 949,
     "nombre": "Plaza Huemul",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29084,7 +29142,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 948,
+    "id": 950,
     "nombre": "Plaza Roosevelt",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29114,7 +29172,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 949,
+    "id": 951,
     "nombre": "Parque Las Américas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29148,7 +29206,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 950,
+    "id": 952,
     "nombre": "Parque Central Avenida General Bustamante",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29177,7 +29235,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 951,
+    "id": 953,
     "nombre": "Plaza Tabancura",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29206,7 +29264,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 952,
+    "id": 954,
     "nombre": "Plaza El Quillay",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29236,7 +29294,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 953,
+    "id": 955,
     "nombre": "Plaza Villa",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29266,7 +29324,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 954,
+    "id": 956,
     "nombre": "Plaza Vicepresidente Bernardo Leighton",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29295,7 +29353,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 955,
+    "id": 957,
     "nombre": "Plaza Ricardo Vial",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29325,7 +29383,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 956,
+    "id": 958,
     "nombre": "Plaza Chaiten",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29354,7 +29412,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 957,
+    "id": 959,
     "nombre": "La Vendimia",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29384,7 +29442,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 958,
+    "id": 960,
     "nombre": "Plaza Aviadora Civil Margot Duhalde Sotomayor",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29413,7 +29471,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 959,
+    "id": 961,
     "nombre": "Plaza San Tadeo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29442,7 +29500,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 960,
+    "id": 962,
     "nombre": "Parque Arboretum",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29472,7 +29530,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 961,
+    "id": 963,
     "nombre": "Plaza Los Ramajes",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29502,7 +29560,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 962,
+    "id": 964,
     "nombre": "Plaza Las Cortezas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29531,7 +29589,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 963,
+    "id": 965,
     "nombre": "Plaza Pedro Lira",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29560,7 +29618,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 964,
+    "id": 966,
     "nombre": "Plaza Víctor Jara",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29590,7 +29648,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 965,
+    "id": 967,
     "nombre": "Plaza Regina Mundi",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29625,7 +29683,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 966,
+    "id": 968,
     "nombre": "Plaza Taitao",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29654,7 +29712,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 967,
+    "id": 969,
     "nombre": "Villa Dagoberto Godoy",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29683,7 +29741,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 968,
+    "id": 970,
     "nombre": "Parque Intercomunal Victor Jara",
     "descripcion": "es:Parque Intercomunal Víctor Jara",
     "categoria": "aire_libre",
@@ -29703,7 +29761,7 @@
       "comuna": "San Joaquín",
       "region": "RM",
       "lat": -33.4778004,
-      "lng": -70.6399752
+      "lng": -70.6399715
     },
     "tags": [
       "access",
@@ -29725,7 +29783,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 969,
+    "id": 971,
     "nombre": "Paseo Villa Naciones Unidas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29755,7 +29813,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 970,
+    "id": 972,
     "nombre": "Parque Avenida Rojas Magallanes",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29784,7 +29842,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 971,
+    "id": 973,
     "nombre": "Parque Avenida Rojas Magallanes",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29813,7 +29871,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 972,
+    "id": 974,
     "nombre": "Parque Avenida Rojas Magallanes",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29842,7 +29900,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 973,
+    "id": 975,
     "nombre": "Parque Avenida Rojas Magallanes",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29871,7 +29929,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 974,
+    "id": 976,
     "nombre": "Parque El Roble",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29901,7 +29959,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 975,
+    "id": 977,
     "nombre": "Plaza Manuel Tovarias",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29931,7 +29989,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 976,
+    "id": 978,
     "nombre": "Plaza Caracol",
     "descripcion": "Juegos Infantiles y de ejercicios, multicancha e casa comunitaria.",
     "categoria": "aire_libre",
@@ -29961,7 +30019,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 977,
+    "id": 979,
     "nombre": "Paseo Las Perdices",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -29990,7 +30048,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 978,
+    "id": 980,
     "nombre": "Plaza Villa Mariano Latorre",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30019,7 +30077,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 979,
+    "id": 981,
     "nombre": "Parque Santiago Bueras",
     "descripcion": "es:Parque Coronel Bueras",
     "categoria": "aire_libre",
@@ -30055,7 +30113,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 980,
+    "id": 982,
     "nombre": "Plaza Ecuador",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30084,7 +30142,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 981,
+    "id": 983,
     "nombre": "Museo Ferroviario",
     "descripcion": "es:Museo Ferroviario de Santiago",
     "categoria": "cultura",
@@ -30126,7 +30184,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 982,
+    "id": 984,
     "nombre": "Museo de Ciencia y Tecnología",
     "descripcion": "es:Museo de Ciencia y Tecnología",
     "categoria": "cultura",
@@ -30166,7 +30224,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 983,
+    "id": 985,
     "nombre": "Plaza Ángel Pimentel",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30195,7 +30253,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 984,
+    "id": 986,
     "nombre": "Plaza Los Robles",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30224,7 +30282,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 985,
+    "id": 987,
     "nombre": "Plaza Vicepresidente Bernardo Leighton",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30253,7 +30311,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 986,
+    "id": 988,
     "nombre": "Plaza Gente Feliz",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30288,7 +30346,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 987,
+    "id": 989,
     "nombre": "Plaza Los Tijerales",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30317,7 +30375,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 988,
+    "id": 990,
     "nombre": "Plaza Las Tinajas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30346,7 +30404,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 989,
+    "id": 991,
     "nombre": "Plaza Los Guindos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30375,7 +30433,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 990,
+    "id": 992,
     "nombre": "Parque Ciudad Satelite Parte 1",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30404,7 +30462,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 991,
+    "id": 993,
     "nombre": "Parque Ciudad Satélite 2",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30433,7 +30491,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 992,
+    "id": 994,
     "nombre": "Plaza El Cactus",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30462,7 +30520,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 993,
+    "id": 995,
     "nombre": "Plaza El Bambú",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30491,7 +30549,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 994,
+    "id": 996,
     "nombre": "Plaza Las Aralias",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30520,7 +30578,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 995,
+    "id": 997,
     "nombre": "Plaza Las Diademas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30549,7 +30607,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 996,
+    "id": 998,
     "nombre": "Plaza El Hibisco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30578,7 +30636,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 997,
+    "id": 999,
     "nombre": "Parque Eduardo Frei Montalva",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30611,7 +30669,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 998,
+    "id": 1000,
     "nombre": "Parque Paraíso",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30640,7 +30698,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 999,
+    "id": 1001,
     "nombre": "Parque Colón",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30669,7 +30727,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1000,
+    "id": 1002,
     "nombre": "Rotonda Santa Marta",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30698,7 +30756,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1001,
+    "id": 1003,
     "nombre": "Parque Ciudad Satélite 3",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30727,7 +30785,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1002,
+    "id": 1004,
     "nombre": "Camilo Henríquez",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30756,7 +30814,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1003,
+    "id": 1005,
     "nombre": "Plaza \"El Triángulo\"",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30785,7 +30843,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1004,
+    "id": 1006,
     "nombre": "Plaza El Liquidambar",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30814,7 +30872,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1005,
+    "id": 1007,
     "nombre": "Plaza El Jacaranda",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30843,7 +30901,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1006,
+    "id": 1008,
     "nombre": "Cerro Navia",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30872,7 +30930,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1007,
+    "id": 1009,
     "nombre": "Parque El Arrayán",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30901,7 +30959,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1008,
+    "id": 1010,
     "nombre": "Las Cumbres",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30930,7 +30988,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1009,
+    "id": 1011,
     "nombre": "Plaza de Hotu Matua",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30959,7 +31017,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1010,
+    "id": 1012,
     "nombre": "Plazoleta Irlanda",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -30989,7 +31047,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1011,
+    "id": 1013,
     "nombre": "Parque Neptuno",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31018,7 +31076,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1012,
+    "id": 1014,
     "nombre": "Museo de Arte Contemporaneo",
     "descripcion": "es:Palacio Versailles",
     "categoria": "cultura",
@@ -31066,7 +31124,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1013,
+    "id": 1015,
     "nombre": "Museo del Vino",
     "descripcion": "",
     "categoria": "cultura",
@@ -31096,7 +31154,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1014,
+    "id": 1016,
     "nombre": "Parque Colón",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31125,7 +31183,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1015,
+    "id": 1017,
     "nombre": "Plaza San Francisco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31154,7 +31212,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1016,
+    "id": 1018,
     "nombre": "Plaza Milán",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31183,7 +31241,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1017,
+    "id": 1019,
     "nombre": "Plaza Trinidad y Tobago",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31212,7 +31270,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1018,
+    "id": 1020,
     "nombre": "Parque Javiera Carrera",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31241,7 +31299,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1019,
+    "id": 1021,
     "nombre": "Plaza Combate de La Concepción",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31270,7 +31328,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1020,
+    "id": 1022,
     "nombre": "Museo Interactivo Las Condes",
     "descripcion": "es:Museo Interactivo Las Condes",
     "categoria": "cultura",
@@ -31317,7 +31375,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1021,
+    "id": 1023,
     "nombre": "Patio Pileta",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31346,7 +31404,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1022,
+    "id": 1024,
     "nombre": "Plaza Las Carmelitas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31375,7 +31433,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1023,
+    "id": 1025,
     "nombre": "Bandejón Las Torres",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31404,7 +31462,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1024,
+    "id": 1026,
     "nombre": "Plaza Unesco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31433,7 +31491,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1025,
+    "id": 1027,
     "nombre": "Plazoleta Leonardo Da Vinci",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31463,7 +31521,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1026,
+    "id": 1028,
     "nombre": "Plaza Villa el Sol",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31492,7 +31550,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1027,
+    "id": 1029,
     "nombre": "Plaza Chepica",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31521,7 +31579,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1028,
+    "id": 1030,
     "nombre": "Plaza Peralillo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31550,7 +31608,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1029,
+    "id": 1031,
     "nombre": "Plaza Valeria Vivanco Caru",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31579,7 +31637,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1030,
+    "id": 1032,
     "nombre": "Plaza Santa Inés",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31608,7 +31666,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1031,
+    "id": 1033,
     "nombre": "Parque Vespucio Oriente",
     "descripcion": "es:Parque Vespucio Oriente",
     "categoria": "aire_libre",
@@ -31647,7 +31705,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1032,
+    "id": 1034,
     "nombre": "Parque Vespucio Oriente",
     "descripcion": "es:Parque Vespucio Oriente",
     "categoria": "aire_libre",
@@ -31686,7 +31744,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1033,
+    "id": 1035,
     "nombre": "Rodrigo Rojas Denegri",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31715,7 +31773,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1034,
+    "id": 1036,
     "nombre": "Plaza Las Águilas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31744,7 +31802,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1035,
+    "id": 1037,
     "nombre": "Plaza El Toqui",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31773,7 +31831,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1036,
+    "id": 1038,
     "nombre": "Plaza Flavio Josefo Poniente",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31802,7 +31860,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1037,
+    "id": 1039,
     "nombre": "Parque Las Parcelas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31831,7 +31889,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1038,
+    "id": 1040,
     "nombre": "Club House Parque San Francisco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31860,7 +31918,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1039,
+    "id": 1041,
     "nombre": "Plaza La Estrella",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31889,7 +31947,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1040,
+    "id": 1042,
     "nombre": "Parque Fernández Albano",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31923,7 +31981,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1041,
+    "id": 1043,
     "nombre": "Plaza de la Ilustre Municipalidad de la Cisterna",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31952,7 +32010,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1042,
+    "id": 1044,
     "nombre": "Plaza Angel Burgueño",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -31982,7 +32040,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1043,
+    "id": 1045,
     "nombre": "Plaza El Salitre",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32011,7 +32069,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1044,
+    "id": 1046,
     "nombre": "Plaza Manuel Rodríguez",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32040,7 +32098,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1045,
+    "id": 1047,
     "nombre": "René Schneider",
     "descripcion": "Plaza René Schneider",
     "categoria": "aire_libre",
@@ -32070,7 +32128,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1046,
+    "id": 1048,
     "nombre": "Plaza Avenida Central",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32099,7 +32157,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1047,
+    "id": 1049,
     "nombre": "Plaza Brasilia",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32128,7 +32186,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1048,
+    "id": 1050,
     "nombre": "Plaza Curarrehue",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32157,7 +32215,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1049,
+    "id": 1051,
     "nombre": "Plaza Varas Mena",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32186,7 +32244,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1050,
+    "id": 1052,
     "nombre": "Plaza Larraguibel",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32215,7 +32273,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1051,
+    "id": 1053,
     "nombre": "Plaza Los Guerrilleros",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32244,7 +32302,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1052,
+    "id": 1054,
     "nombre": "Plaza Juan Pablo II",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32273,7 +32331,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1053,
+    "id": 1055,
     "nombre": "Parque Portezuelo Norte",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32303,7 +32361,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1054,
+    "id": 1056,
     "nombre": "Parque Las Palmeras",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32332,7 +32390,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1055,
+    "id": 1057,
     "nombre": "Parque Bagdad",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32361,7 +32419,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1056,
+    "id": 1058,
     "nombre": "Plaza Arabia",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32390,7 +32448,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1057,
+    "id": 1059,
     "nombre": "Parque de la Toma de Agua",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32419,7 +32477,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1058,
+    "id": 1060,
     "nombre": "Plaza La Mezquita Norte",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32448,7 +32506,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1059,
+    "id": 1061,
     "nombre": "Parque Los Océanos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32477,7 +32535,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1060,
+    "id": 1062,
     "nombre": "Plaza Diego Colombo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32506,7 +32564,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1061,
+    "id": 1063,
     "nombre": "Parque El Líbano",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32535,7 +32593,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1062,
+    "id": 1064,
     "nombre": "Plaza Etiopia",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32564,7 +32622,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1063,
+    "id": 1065,
     "nombre": "Parque Mares del Sur",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32593,7 +32651,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1064,
+    "id": 1066,
     "nombre": "Plaza Neptuno Norte",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32622,7 +32680,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1065,
+    "id": 1067,
     "nombre": "Parque Neptuno Sur",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32651,7 +32709,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1066,
+    "id": 1068,
     "nombre": "Parque Luxor",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32680,7 +32738,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1067,
+    "id": 1069,
     "nombre": "Plaza Egipto",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32709,7 +32767,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1068,
+    "id": 1070,
     "nombre": "Plaza Bombero Raúl Mazzone",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32738,7 +32796,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1069,
+    "id": 1071,
     "nombre": "Plaza Israel",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32767,7 +32825,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1070,
+    "id": 1072,
     "nombre": "Plaza Gran Misión",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32796,7 +32854,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1071,
+    "id": 1073,
     "nombre": "Plaza Santa Catalina",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32825,7 +32883,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1072,
+    "id": 1074,
     "nombre": "Parque Cristo Redentor",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32854,7 +32912,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1073,
+    "id": 1075,
     "nombre": "Plaza La Salle",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32883,7 +32941,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1074,
+    "id": 1076,
     "nombre": "Plaza Purísima",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32912,7 +32970,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1075,
+    "id": 1077,
     "nombre": "Plaza Camiña",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32941,7 +32999,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1076,
+    "id": 1078,
     "nombre": "Plaza Eleusis",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32970,7 +33028,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1077,
+    "id": 1079,
     "nombre": "Plaza Eleusis",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -32999,7 +33057,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1078,
+    "id": 1080,
     "nombre": "Plaza Tarot",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33028,7 +33086,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1079,
+    "id": 1081,
     "nombre": "Plaza Empedrado",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33057,7 +33115,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1080,
+    "id": 1082,
     "nombre": "Plaza -Constitución",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33086,7 +33144,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1081,
+    "id": 1083,
     "nombre": "Plaza Pelarco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33115,7 +33173,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1082,
+    "id": 1084,
     "nombre": "Plaza Caleta Gonzalo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33144,7 +33202,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1083,
+    "id": 1085,
     "nombre": "Plaza Huasco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33173,7 +33231,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1084,
+    "id": 1086,
     "nombre": "Plaza Andacollo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33202,7 +33260,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1085,
+    "id": 1087,
     "nombre": "Plaza Tripoli",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33231,7 +33289,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1086,
+    "id": 1088,
     "nombre": "Plaza La Cosecha",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33260,7 +33318,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1087,
+    "id": 1089,
     "nombre": "Plaza de las artes",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33289,7 +33347,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1088,
+    "id": 1090,
     "nombre": "Parque Martín de Solís",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33321,7 +33379,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1089,
+    "id": 1091,
     "nombre": "Castel Sarrazin",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33353,7 +33411,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1090,
+    "id": 1092,
     "nombre": "Plaza de Villa Magistral",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33385,7 +33443,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1091,
+    "id": 1093,
     "nombre": "Plaza Pucará",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33414,7 +33472,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1092,
+    "id": 1094,
     "nombre": "Plaza Phillipe Costeau",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33443,7 +33501,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1093,
+    "id": 1095,
     "nombre": "Plaza Albatros",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33472,7 +33530,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1094,
+    "id": 1096,
     "nombre": "Plaza Bremen",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33501,7 +33559,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1095,
+    "id": 1097,
     "nombre": "Plaza Dagoberto Godoy",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33530,7 +33588,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1096,
+    "id": 1098,
     "nombre": "Plaza Las Margaritas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33559,7 +33617,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1097,
+    "id": 1099,
     "nombre": "Condominio Los Arrayanes",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33588,7 +33646,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1098,
+    "id": 1100,
     "nombre": "Condominio Los Arrayanes",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33617,7 +33675,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1099,
+    "id": 1101,
     "nombre": "Casa Museo Patricio Aylwin Azócar",
     "descripcion": "",
     "categoria": "cultura",
@@ -33654,7 +33712,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1100,
+    "id": 1102,
     "nombre": "Plaza de los Niños",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33683,7 +33741,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1101,
+    "id": 1103,
     "nombre": "Plaza Hugo Vega Godoy",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33713,7 +33771,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1102,
+    "id": 1104,
     "nombre": "Plaza O'higgins",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33742,7 +33800,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1103,
+    "id": 1105,
     "nombre": "Plaza Canadá",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33771,7 +33829,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1104,
+    "id": 1106,
     "nombre": "Plaza Van Dyck",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33800,7 +33858,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1105,
+    "id": 1107,
     "nombre": "Plaza Rafael Sanzio",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33829,7 +33887,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1106,
+    "id": 1108,
     "nombre": "Plaza Los Canarios",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33858,7 +33916,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1107,
+    "id": 1109,
     "nombre": "Parque Santa Elena",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33887,7 +33945,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1108,
+    "id": 1110,
     "nombre": "Plaza Centro Ciudad Empresarial",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33916,7 +33974,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1109,
+    "id": 1111,
     "nombre": "Plaza Los Cuncos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33950,7 +34008,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1110,
+    "id": 1112,
     "nombre": "Parque Avenida 5 de Abril",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -33979,7 +34037,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1111,
+    "id": 1113,
     "nombre": "Parque Valle de los Reyes",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34008,7 +34066,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1112,
+    "id": 1114,
     "nombre": "Placita Villa El Sol",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34037,7 +34095,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1113,
+    "id": 1115,
     "nombre": "Plaza Yarur",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34066,7 +34124,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1114,
+    "id": 1116,
     "nombre": "Plaza El Jardín",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34095,7 +34153,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1115,
+    "id": 1117,
     "nombre": "Plaza Buen Día",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34124,7 +34182,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1116,
+    "id": 1118,
     "nombre": "Plaza Volcán Antuco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34153,7 +34211,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1117,
+    "id": 1119,
     "nombre": "Plaza Quebrada de Vitor",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34182,7 +34240,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1118,
+    "id": 1120,
     "nombre": "Plaza El Esfuerzo",
     "descripcion": "Plaza con máquinas de ejercicios",
     "categoria": "aire_libre",
@@ -34216,7 +34274,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1119,
+    "id": 1121,
     "nombre": "Parque Dos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34246,7 +34304,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1120,
+    "id": 1122,
     "nombre": "Plaza Altiplano",
     "descripcion": "Plaza Altiplano",
     "categoria": "aire_libre",
@@ -34276,7 +34334,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1121,
+    "id": 1123,
     "nombre": "Plaza Felipe Antonio",
     "descripcion": "Plaza El Valle/Lago Rupanco",
     "categoria": "aire_libre",
@@ -34306,7 +34364,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1122,
+    "id": 1124,
     "nombre": "Plaza América",
     "descripcion": "Plaza de San Ramón.",
     "categoria": "aire_libre",
@@ -34336,7 +34394,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1123,
+    "id": 1125,
     "nombre": "Plaza Pedro Aguirre Cerda",
     "descripcion": "Plaza con juegos.",
     "categoria": "aire_libre",
@@ -34366,7 +34424,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1124,
+    "id": 1126,
     "nombre": "Plaza Los Bomberos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34395,7 +34453,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1125,
+    "id": 1127,
     "nombre": "Plaza Matte",
     "descripcion": "Gym del Favio",
     "categoria": "aire_libre",
@@ -34425,7 +34483,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1126,
+    "id": 1128,
     "nombre": "Plaza Junquillar",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34454,7 +34512,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1127,
+    "id": 1129,
     "nombre": "Plaza Malebrán",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34483,7 +34541,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1128,
+    "id": 1130,
     "nombre": "Plaza Miguel Ángel",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34512,7 +34570,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1129,
+    "id": 1131,
     "nombre": "Plaza el Melí",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34541,7 +34599,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1130,
+    "id": 1132,
     "nombre": "Parque Granada",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34570,7 +34628,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1131,
+    "id": 1133,
     "nombre": "Plaza Socometal",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34599,7 +34657,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1132,
+    "id": 1134,
     "nombre": "Plaza El Rosal",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34628,7 +34686,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1133,
+    "id": 1135,
     "nombre": "Plaza El Rosal",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34659,7 +34717,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1134,
+    "id": 1136,
     "nombre": "Plaza El Rosal",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34688,7 +34746,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1135,
+    "id": 1137,
     "nombre": "Plaza El Rosal",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34717,7 +34775,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1136,
+    "id": 1138,
     "nombre": "Plaza Las Dichas",
     "descripcion": "Plaza las Dichas. Contiene bancos, juegos, elementos para hacer ejercicios, y suelen realizar clases de ejercicio. Parte del Convento Sto. Tomás donada por los Agustinos",
     "categoria": "aire_libre",
@@ -34751,7 +34809,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1137,
+    "id": 1139,
     "nombre": "Plaza Provincias Unidas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34780,7 +34838,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1138,
+    "id": 1140,
     "nombre": "Plaza Batalla de Yungay",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34811,7 +34869,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1139,
+    "id": 1141,
     "nombre": "Plazoleta Curicó",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34840,7 +34898,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1140,
+    "id": 1142,
     "nombre": "Plaza Periodista Raquel Correa",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34869,7 +34927,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1141,
+    "id": 1143,
     "nombre": "Plaza David Arellano",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34898,7 +34956,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1142,
+    "id": 1144,
     "nombre": "Plaza La Aurora",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34927,7 +34985,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1143,
+    "id": 1145,
     "nombre": "Plaza San Fernando",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34956,7 +35014,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1144,
+    "id": 1146,
     "nombre": "Plaza Los Mares",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -34985,7 +35043,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1145,
+    "id": 1147,
     "nombre": "Plaza de la Niñez Salvador Allende",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35015,7 +35073,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1146,
+    "id": 1148,
     "nombre": "Plazoleta del 29",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35044,7 +35102,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1147,
+    "id": 1149,
     "nombre": "Parque de los Reyes",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35073,7 +35131,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1148,
+    "id": 1150,
     "nombre": "Plaza Corazón de María",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35102,7 +35160,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1149,
+    "id": 1151,
     "nombre": "Plaza El Pillán 1",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35132,7 +35190,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1150,
+    "id": 1152,
     "nombre": "Plaza El Pillán 2",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35161,7 +35219,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1151,
+    "id": 1153,
     "nombre": "Parque Los Libertadores",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35193,7 +35251,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1152,
+    "id": 1154,
     "nombre": "Media Luna Mercurial",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35223,7 +35281,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1153,
+    "id": 1155,
     "nombre": "Pileta San Enrique",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35252,7 +35310,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1154,
+    "id": 1156,
     "nombre": "Héroes de la Concepción 1",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35281,7 +35339,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1155,
+    "id": 1157,
     "nombre": "Plaza Arica",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35310,7 +35368,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1156,
+    "id": 1158,
     "nombre": "Plaza de Juegos Los Molinos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35339,7 +35397,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1157,
+    "id": 1159,
     "nombre": "Parque Lo Ovalle",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35368,7 +35426,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1158,
+    "id": 1160,
     "nombre": "Plaza El Mañío",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35397,7 +35455,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1159,
+    "id": 1161,
     "nombre": "Plaza Mirasol",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35426,7 +35484,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1160,
+    "id": 1162,
     "nombre": "Plaza Raúl Aliaga",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35455,7 +35513,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1161,
+    "id": 1163,
     "nombre": "Plaza Jerusalén",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35484,7 +35542,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1162,
+    "id": 1164,
     "nombre": "Plaza Las Flores",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35513,7 +35571,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1163,
+    "id": 1165,
     "nombre": "Plazoleta Enrique Soro",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35542,7 +35600,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1164,
+    "id": 1166,
     "nombre": "Parque El Crepúsculo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35571,7 +35629,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1165,
+    "id": 1167,
     "nombre": "Parque Sagrada Familia",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35600,7 +35658,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1166,
+    "id": 1168,
     "nombre": "Plaza Bernardo Leighton",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35632,7 +35690,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1167,
+    "id": 1169,
     "nombre": "Plaza Hermanos Carrera",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35661,7 +35719,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1168,
+    "id": 1170,
     "nombre": "Plaza Aviadores",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35690,7 +35748,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1169,
+    "id": 1171,
     "nombre": "Parque Paseo los Arcos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35720,7 +35778,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1170,
+    "id": 1172,
     "nombre": "Parque Almendral",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35750,7 +35808,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1171,
+    "id": 1173,
     "nombre": "Plaza Villa Van Gogh",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35779,7 +35837,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1172,
+    "id": 1174,
     "nombre": "Plaza Teresa Salas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35808,7 +35866,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1173,
+    "id": 1175,
     "nombre": "Plaza Doctor Pedro Flores Zepeda",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35840,7 +35898,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1174,
+    "id": 1176,
     "nombre": "Parque Tres Poniente",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35869,7 +35927,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1175,
+    "id": 1177,
     "nombre": "Plaza de Bolsillo Santo Domingo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35898,7 +35956,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1176,
+    "id": 1178,
     "nombre": "Paseo Bulnes",
     "descripcion": "es:Paseo Bulnes",
     "categoria": "aire_libre",
@@ -35934,7 +35992,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1177,
+    "id": 1179,
     "nombre": "Saturno V",
     "descripcion": "es:Saturno V",
     "categoria": "aire_libre",
@@ -35968,7 +36026,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1178,
+    "id": 1180,
     "nombre": "Parque Central Lo Campino",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -35997,7 +36055,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1179,
+    "id": 1181,
     "nombre": "Parque Central Lo Campino",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36026,7 +36084,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1180,
+    "id": 1182,
     "nombre": "Plaza Pozo Almonte",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36056,7 +36114,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1181,
+    "id": 1183,
     "nombre": "Plaza La Herradura",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36085,7 +36143,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1182,
+    "id": 1184,
     "nombre": "Plaza Francisco Encina",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36114,7 +36172,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1183,
+    "id": 1185,
     "nombre": "Parque Inés de Suárez",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36143,7 +36201,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1184,
+    "id": 1186,
     "nombre": "Mar del Coral",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36172,7 +36230,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1185,
+    "id": 1187,
     "nombre": "Población El Almendro 2",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36201,7 +36259,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1186,
+    "id": 1188,
     "nombre": "Villa Esperanza",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36230,7 +36288,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1187,
+    "id": 1189,
     "nombre": "Plaza Concejal Pedro Vega",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36259,7 +36317,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1188,
+    "id": 1190,
     "nombre": "Plaza Central",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36289,7 +36347,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1189,
+    "id": 1191,
     "nombre": "Parque Central Avenida Las Torres",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36318,7 +36376,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1190,
+    "id": 1192,
     "nombre": "Parque Los Helechos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36347,7 +36405,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1191,
+    "id": 1193,
     "nombre": "Plaza Villa Las Perdices",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36376,7 +36434,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1192,
+    "id": 1194,
     "nombre": "Plaza Villa Las Perdices",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36405,7 +36463,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1193,
+    "id": 1195,
     "nombre": "Parque Lateral Tobalaba",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36434,7 +36492,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1194,
+    "id": 1196,
     "nombre": "Plazuela González Vera",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36463,7 +36521,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1195,
+    "id": 1197,
     "nombre": "Casa Museo Eduardo Frei Montalva",
     "descripcion": "es:Casa Museo Eduardo Frei Montalva",
     "categoria": "cultura",
@@ -36502,7 +36560,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1196,
+    "id": 1198,
     "nombre": "Plaza Ossa",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36531,7 +36589,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1197,
+    "id": 1199,
     "nombre": "Parque Urbano Cerro Blanco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36563,7 +36621,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1198,
+    "id": 1200,
     "nombre": "Parque Urbano Cerro Blanco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36592,7 +36650,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1199,
+    "id": 1201,
     "nombre": "Bandejón Cardenal Caro",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36621,7 +36679,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1200,
+    "id": 1202,
     "nombre": "Parque Avenida Pedro Fontova",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36650,7 +36708,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1201,
+    "id": 1203,
     "nombre": "Plaza Palestina",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36679,7 +36737,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1202,
+    "id": 1204,
     "nombre": "Paque Central Avenida Marathon",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36708,7 +36766,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1203,
+    "id": 1205,
     "nombre": "Rotonda Amador Neghme Rodríguez",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36737,7 +36795,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1204,
+    "id": 1206,
     "nombre": "Plaza Meulín",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36769,7 +36827,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1205,
+    "id": 1207,
     "nombre": "Plaza La Torre",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36798,7 +36856,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1206,
+    "id": 1208,
     "nombre": "Las Cuatro Plazas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36827,7 +36885,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1207,
+    "id": 1209,
     "nombre": "Plaza Capitán Ignacio Carrera Pinto",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36856,7 +36914,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1208,
+    "id": 1210,
     "nombre": "Plaza Coronel Santiago Bueras",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36885,7 +36943,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1209,
+    "id": 1211,
     "nombre": "Plaza Renacer",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36914,7 +36972,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1210,
+    "id": 1212,
     "nombre": "Plaza Premio Nobel",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36943,7 +37001,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1211,
+    "id": 1213,
     "nombre": "Plaza Ciudad de Lyon",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -36972,7 +37030,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1212,
+    "id": 1214,
     "nombre": "Plaza La Piola",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37001,7 +37059,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1213,
+    "id": 1215,
     "nombre": "Parque Santa Maria Norte",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37030,7 +37088,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1214,
+    "id": 1216,
     "nombre": "Parque Arboleda El Cortijo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37059,7 +37117,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1215,
+    "id": 1217,
     "nombre": "Pasaje 7",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37088,7 +37146,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1216,
+    "id": 1218,
     "nombre": "Los Acacios",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37117,7 +37175,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1217,
+    "id": 1219,
     "nombre": "Plaza Panamericana",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37146,7 +37204,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1218,
+    "id": 1220,
     "nombre": "Parque Las Américas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37176,7 +37234,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1219,
+    "id": 1221,
     "nombre": "Parque Las Industrias",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37205,7 +37263,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1220,
+    "id": 1222,
     "nombre": "Parque Betancourt",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37234,7 +37292,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1221,
+    "id": 1223,
     "nombre": "Plaza Llavería",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37263,7 +37321,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1222,
+    "id": 1224,
     "nombre": "Plaza Gustavo V",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37293,7 +37351,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1223,
+    "id": 1225,
     "nombre": "Parque Cultural Las Condes",
     "descripcion": "es:Centro Cultural Las Condes",
     "categoria": "aire_libre",
@@ -37328,7 +37386,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1224,
+    "id": 1226,
     "nombre": "Plaza Vasca",
     "descripcion": "es:Plaza Vasca (Santiago de Chile)",
     "categoria": "aire_libre",
@@ -37371,7 +37429,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1225,
+    "id": 1227,
     "nombre": "Parque Pajaritos Central",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37400,7 +37458,37 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1226,
+    "id": 1228,
+    "nombre": "Plaza Pisac",
+    "descripcion": "",
+    "categoria": "aire_libre",
+    "subcategoria": "parque",
+    "tipo": [
+      "solo",
+      "pareja",
+      "familia"
+    ],
+    "precio": {
+      "tipo": "gratis",
+      "valor": 0,
+      "moneda": "CLP"
+    },
+    "ubicacion": {
+      "direccion": "",
+      "comuna": "Santiago",
+      "region": "RM",
+      "lat": -33.512782,
+      "lng": -70.5986737
+    },
+    "tags": [
+      "leisure",
+      "name",
+      "opening_hours"
+    ],
+    "fuente": "openstreetmap"
+  },
+  {
+    "id": 1229,
     "nombre": "Parque Urbanización Chicauma",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37429,7 +37517,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1227,
+    "id": 1230,
     "nombre": "Plaza Arica",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37458,7 +37546,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1228,
+    "id": 1231,
     "nombre": "Plaza Canal Colector",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37487,7 +37575,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1229,
+    "id": 1232,
     "nombre": "Plaza Juan Morán",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37516,7 +37604,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1230,
+    "id": 1233,
     "nombre": "Plaza Los Palos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37545,7 +37633,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1231,
+    "id": 1234,
     "nombre": "Museo del Automóvil",
     "descripcion": "",
     "categoria": "cultura",
@@ -37575,7 +37663,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1232,
+    "id": 1235,
     "nombre": "Plaza 8 Oriente",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37604,7 +37692,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1233,
+    "id": 1236,
     "nombre": "Plaza Cadete Oscar Martinez",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37633,7 +37721,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1234,
+    "id": 1237,
     "nombre": "Placita Los Incas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37662,7 +37750,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1235,
+    "id": 1238,
     "nombre": "Placita Las Gaviotas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37691,7 +37779,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1236,
+    "id": 1239,
     "nombre": "Placita Juan Bautista",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37720,7 +37808,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1237,
+    "id": 1240,
     "nombre": "Plaza Las Esquilas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37749,7 +37837,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1238,
+    "id": 1241,
     "nombre": "Plaza Estación",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37778,7 +37866,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1239,
+    "id": 1242,
     "nombre": "Plaza Porvenir",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37807,7 +37895,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1240,
+    "id": 1243,
     "nombre": "Plaza Manuel Ormeño Moscoso",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37836,7 +37924,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1241,
+    "id": 1244,
     "nombre": "Plaza Luis Lazo Arriagada",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37866,7 +37954,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1242,
+    "id": 1245,
     "nombre": "Plaza Talleres",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37895,7 +37983,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1243,
+    "id": 1246,
     "nombre": "Plaza Padre Esteban Gumucio",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37924,7 +38012,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1244,
+    "id": 1247,
     "nombre": "Plaza John Lennon",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37953,7 +38041,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1245,
+    "id": 1248,
     "nombre": "Plaza Violeta Parra",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -37982,7 +38070,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1246,
+    "id": 1249,
     "nombre": "Plaza Manuel Ormeño Moscoso",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38011,7 +38099,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1247,
+    "id": 1250,
     "nombre": "Plaza Evaristo Moncada",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38040,7 +38128,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1248,
+    "id": 1251,
     "nombre": "Plaza Calle J",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38069,7 +38157,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1249,
+    "id": 1252,
     "nombre": "Plaza Gabriela Mistral",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38098,7 +38186,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1250,
+    "id": 1253,
     "nombre": "Plaza Vecinos Unidos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38128,7 +38216,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1251,
+    "id": 1254,
     "nombre": "Plaza Famae",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38157,7 +38245,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1252,
+    "id": 1255,
     "nombre": "Plaza Cuatro Oriente",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38186,7 +38274,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1253,
+    "id": 1256,
     "nombre": "Plaza Los Talabarteros",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38216,7 +38304,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1254,
+    "id": 1257,
     "nombre": "Plaza Los Álamos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38245,7 +38333,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1255,
+    "id": 1258,
     "nombre": "Plaza Navidad",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38274,7 +38362,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1256,
+    "id": 1259,
     "nombre": "Plazoleta Marcela Paz",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38303,7 +38391,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1257,
+    "id": 1260,
     "nombre": "Plaza Nemesio Antúnez",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38332,7 +38420,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1258,
+    "id": 1261,
     "nombre": "Plaza Vicente Huidobro",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38361,7 +38449,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1259,
+    "id": 1262,
     "nombre": "Plaza Diácono Villanueva",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38391,7 +38479,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1260,
+    "id": 1263,
     "nombre": "Plaza Villa Capri",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38420,7 +38508,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1261,
+    "id": 1264,
     "nombre": "Plaza Ronald Wood",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38451,7 +38539,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1262,
+    "id": 1265,
     "nombre": "Plaza Jorge Prat Echaurren",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38480,7 +38568,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1263,
+    "id": 1266,
     "nombre": "Parque Lumaco Sur",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38509,7 +38597,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1264,
+    "id": 1267,
     "nombre": "Plaza Putre",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38538,7 +38626,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1265,
+    "id": 1268,
     "nombre": "Plaza Colchane",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38567,7 +38655,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1266,
+    "id": 1269,
     "nombre": "Plaza Higuerilla",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38596,7 +38684,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1267,
+    "id": 1270,
     "nombre": "Plaza MadreSelva",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38625,7 +38713,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1268,
+    "id": 1271,
     "nombre": "Plaza Batallón Chacabuco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38654,7 +38742,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1269,
+    "id": 1272,
     "nombre": "Villa Lautaro Oriente",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38683,7 +38771,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1270,
+    "id": 1273,
     "nombre": "Plaza Cívica de La Pintana",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38712,7 +38800,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1271,
+    "id": 1274,
     "nombre": "Plaza El Raulí",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38741,7 +38829,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1272,
+    "id": 1275,
     "nombre": "Parque Avenida Quilín",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38770,7 +38858,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1273,
+    "id": 1276,
     "nombre": "Parque Javiera Carrera",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38799,7 +38887,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1274,
+    "id": 1277,
     "nombre": "Parque Javiera Carrera",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38828,7 +38916,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1275,
+    "id": 1278,
     "nombre": "Parque Javiera Carrera",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38857,7 +38945,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1276,
+    "id": 1279,
     "nombre": "Plazoleta Lira",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38893,7 +38981,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1277,
+    "id": 1280,
     "nombre": "Plaza Bernal del Mercado",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38922,7 +39010,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1278,
+    "id": 1281,
     "nombre": "Plaza Las Catalpas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38951,7 +39039,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1279,
+    "id": 1282,
     "nombre": "Parque Ortuzano",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -38982,7 +39070,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1280,
+    "id": 1283,
     "nombre": "Plaza Francia",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39011,7 +39099,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1281,
+    "id": 1284,
     "nombre": "Plaza Rey Ricardo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39040,7 +39128,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1282,
+    "id": 1285,
     "nombre": "Plaza Guillermo Tell",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39069,7 +39157,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1283,
+    "id": 1286,
     "nombre": "Plaza Santa Lucía",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39098,7 +39186,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1284,
+    "id": 1287,
     "nombre": "Plaza Isla Trelat",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39127,7 +39215,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1285,
+    "id": 1288,
     "nombre": "Plaza Calama",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39156,7 +39244,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1286,
+    "id": 1289,
     "nombre": "Huerto Rengalentun",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39185,7 +39273,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1287,
+    "id": 1290,
     "nombre": "Parque Lo Franco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39216,7 +39304,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1288,
+    "id": 1291,
     "nombre": "Museo Artequin",
     "descripcion": "es:Museo Artequin",
     "categoria": "cultura",
@@ -39258,7 +39346,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1289,
+    "id": 1292,
     "nombre": "Plaza Las Glorietas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39287,7 +39375,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1290,
+    "id": 1293,
     "nombre": "Plaza Mafalda",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39316,7 +39404,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1291,
+    "id": 1294,
     "nombre": "Clotario Blest Riffo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39345,7 +39433,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1292,
+    "id": 1295,
     "nombre": "Clotario Blest Riffo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39374,7 +39462,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1293,
+    "id": 1296,
     "nombre": "Clotario Blest Riffo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39403,7 +39491,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1294,
+    "id": 1297,
     "nombre": "Euro Chile",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39432,7 +39520,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1295,
+    "id": 1298,
     "nombre": "Plaza Gran Misión",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39461,7 +39549,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1296,
+    "id": 1299,
     "nombre": "Plaza Las Mercedes",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39490,7 +39578,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1297,
+    "id": 1300,
     "nombre": "Parque Villa Oherens",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39520,7 +39608,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1298,
+    "id": 1301,
     "nombre": "Plaza Salvador Allende",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39549,7 +39637,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1299,
+    "id": 1302,
     "nombre": "Plaza Venecia",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39580,7 +39668,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1300,
+    "id": 1303,
     "nombre": "Plaza Consistorial",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39609,7 +39697,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1301,
+    "id": 1304,
     "nombre": "Parque Colón",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39638,7 +39726,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1302,
+    "id": 1305,
     "nombre": "Parque Los Dominicos",
     "descripcion": "es:Parque Los Dominicos",
     "categoria": "aire_libre",
@@ -39671,7 +39759,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1303,
+    "id": 1306,
     "nombre": "Plaza Zapadores",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39700,7 +39788,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1304,
+    "id": 1307,
     "nombre": "Plaza Gabriela Mistral",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39730,7 +39818,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1305,
+    "id": 1308,
     "nombre": "Plaza Palmilla",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39759,7 +39847,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1306,
+    "id": 1309,
     "nombre": "Plaza Palmilla",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39788,7 +39876,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1307,
+    "id": 1310,
     "nombre": "Mar de Bering",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39817,7 +39905,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1308,
+    "id": 1311,
     "nombre": "Plaza Reina María",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39846,7 +39934,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1309,
+    "id": 1312,
     "nombre": "Plaza del Jacarandá",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39877,7 +39965,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1310,
+    "id": 1313,
     "nombre": "Plaza Los Nogales",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39908,7 +39996,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1311,
+    "id": 1314,
     "nombre": "Plaza Noruega",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39937,7 +40025,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1312,
+    "id": 1315,
     "nombre": "Plaza Sagitario",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39966,7 +40054,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1313,
+    "id": 1316,
     "nombre": "Plaza El Ciruelo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -39995,7 +40083,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1314,
+    "id": 1317,
     "nombre": "Plaza Salomón Sack",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40024,7 +40112,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1315,
+    "id": 1318,
     "nombre": "Plaza Las Leyes",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40053,7 +40141,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1316,
+    "id": 1319,
     "nombre": "Plaza Diagonal Santiago",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40082,7 +40170,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1317,
+    "id": 1320,
     "nombre": "Club de Campo Las Vizcachas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40111,7 +40199,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1318,
+    "id": 1321,
     "nombre": "Plaza Teniente Cruz",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40140,7 +40228,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1319,
+    "id": 1322,
     "nombre": "Plaza Reina de los Aires",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40169,7 +40257,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1320,
+    "id": 1323,
     "nombre": "Plaza Santa Graciela",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40198,7 +40286,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1321,
+    "id": 1324,
     "nombre": "Plaza Volcán Yelcho",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40227,7 +40315,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1322,
+    "id": 1325,
     "nombre": "Plaza Santa Natalia",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40256,7 +40344,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1323,
+    "id": 1326,
     "nombre": "Plaza Santa Irene",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40275,8 +40363,8 @@
       "direccion": "",
       "comuna": "Santiago",
       "region": "RM",
-      "lat": -33.5219671,
-      "lng": -70.5689503
+      "lat": -33.5219723,
+      "lng": -70.5689261
     },
     "tags": [
       "leisure",
@@ -40285,7 +40373,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1324,
+    "id": 1327,
     "nombre": "Rotonda Grecia",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40314,7 +40402,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1325,
+    "id": 1328,
     "nombre": "Plaza Valentina Leppe",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40343,7 +40431,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1326,
+    "id": 1329,
     "nombre": "Plaza Lea Pollack",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40372,7 +40460,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1327,
+    "id": 1330,
     "nombre": "Plaza Huracán",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40401,7 +40489,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1328,
+    "id": 1331,
     "nombre": "Plaza Villa Colina",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40430,7 +40518,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1329,
+    "id": 1332,
     "nombre": "Plaza Villa Colina",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40459,7 +40547,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1330,
+    "id": 1333,
     "nombre": "Plaza Pozo Almonte",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40488,7 +40576,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1331,
+    "id": 1334,
     "nombre": "Plaza Berna Oriente",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40517,7 +40605,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1332,
+    "id": 1335,
     "nombre": "Plaza Berna Potiente",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40546,7 +40634,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1333,
+    "id": 1336,
     "nombre": "Plaza Lugano 1 Oriente",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40575,7 +40663,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1334,
+    "id": 1337,
     "nombre": "Plaza Lugano 1 Poniente",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40604,7 +40692,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1335,
+    "id": 1338,
     "nombre": "Plaza Lucerna 3 Poniente",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40633,7 +40721,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1336,
+    "id": 1339,
     "nombre": "Plazuela Los Toros",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40662,7 +40750,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1337,
+    "id": 1340,
     "nombre": "Plaza Memorial Bombero Oscar Encalada Yovanovich",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40691,7 +40779,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1338,
+    "id": 1341,
     "nombre": "Placita Los Queltehues",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40720,7 +40808,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1339,
+    "id": 1342,
     "nombre": "Plaza Joaquín Díaz",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40749,7 +40837,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1340,
+    "id": 1343,
     "nombre": "Plaza Manuel Barrios",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40778,7 +40866,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1341,
+    "id": 1344,
     "nombre": "Plaza Benjamín Subercaseaux",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40807,7 +40895,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1342,
+    "id": 1345,
     "nombre": "Plaza Pilar Meza",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40836,7 +40924,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1343,
+    "id": 1346,
     "nombre": "Paseo Peatonal El Parque",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40869,7 +40957,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1344,
+    "id": 1347,
     "nombre": "Parque Monitor",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40898,7 +40986,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1345,
+    "id": 1348,
     "nombre": "Plaza de los Ancianos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40928,7 +41016,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1346,
+    "id": 1349,
     "nombre": "Plaza Miguel Enríquez",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40958,7 +41046,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1347,
+    "id": 1350,
     "nombre": "Plaza Los Lilenes",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -40987,7 +41075,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1348,
+    "id": 1351,
     "nombre": "Plaza El Tubo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41016,7 +41104,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1349,
+    "id": 1352,
     "nombre": "Parque San Alberto Hurtado",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41045,7 +41133,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1350,
+    "id": 1353,
     "nombre": "Plaza Goycolea",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41074,7 +41162,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1351,
+    "id": 1354,
     "nombre": "Plaza El Esfuerzo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41103,7 +41191,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1352,
+    "id": 1355,
     "nombre": "Plaza Los Cocodrilos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41132,8 +41220,8 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1353,
-    "nombre": "Plaza de Bolsillo Capitán Avalos",
+    "id": 1356,
+    "nombre": "Plaza de Bolsillo Capitán Ávalos",
     "descripcion": "",
     "categoria": "aire_libre",
     "subcategoria": "parque",
@@ -41161,7 +41249,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1354,
+    "id": 1357,
     "nombre": "Plaza Las Amapolas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41190,7 +41278,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1355,
+    "id": 1358,
     "nombre": "Plaza Parroquial",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41219,7 +41307,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1356,
+    "id": 1359,
     "nombre": "Plaza Versalles",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41254,7 +41342,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1357,
+    "id": 1360,
     "nombre": "Plaza Holanda",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41283,7 +41371,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1358,
+    "id": 1361,
     "nombre": "Plaza Teatro Municipal",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41312,7 +41400,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1359,
+    "id": 1362,
     "nombre": "Parque Bandejón Ingeniero Eduardo Domínguez",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41341,7 +41429,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1360,
+    "id": 1363,
     "nombre": "Plaza El Rosal",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41370,7 +41458,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1361,
+    "id": 1364,
     "nombre": "Parque Isabel Riquelme",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41399,7 +41487,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1362,
+    "id": 1365,
     "nombre": "Plaza Las Vizcachas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41428,7 +41516,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1363,
+    "id": 1366,
     "nombre": "Plaza Victoria de Abril",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41459,7 +41547,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1364,
+    "id": 1367,
     "nombre": "Plaza Patria Nueva",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41488,7 +41576,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1365,
+    "id": 1368,
     "nombre": "Plaza Campo de Batalla",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41519,7 +41607,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1366,
+    "id": 1369,
     "nombre": "Plaza Liceo Maipú",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41548,7 +41636,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1367,
+    "id": 1370,
     "nombre": "Fundación Museo Guerra del Pacífico Domingo de Toro Herrera",
     "descripcion": "",
     "categoria": "cultura",
@@ -41583,7 +41671,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1368,
+    "id": 1371,
     "nombre": "Plaza de Juegos Santa Emilia",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41612,7 +41700,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1369,
+    "id": 1372,
     "nombre": "Parque Violeta Cousiño",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41641,7 +41729,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1370,
+    "id": 1373,
     "nombre": "Plaza del reloj",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41670,7 +41758,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1371,
+    "id": 1374,
     "nombre": "Plaza Ongolmo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41699,7 +41787,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1372,
+    "id": 1375,
     "nombre": "Parque Estoril",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41728,7 +41816,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1373,
+    "id": 1376,
     "nombre": "Plaza Rapa Nui",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41757,7 +41845,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1374,
+    "id": 1377,
     "nombre": "Plaza Lazo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41787,7 +41875,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1375,
+    "id": 1378,
     "nombre": "Acceso Parque O'Higgins",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41817,7 +41905,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1376,
+    "id": 1379,
     "nombre": "Plaza Juvenal Hernández Jaque",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41850,7 +41938,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1377,
+    "id": 1380,
     "nombre": "Junta de vecinos villa pajaritos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41879,7 +41967,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1378,
+    "id": 1381,
     "nombre": "Plaza Gabriel Palma",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41908,7 +41996,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1379,
+    "id": 1382,
     "nombre": "Plaza Gabriela Mistral",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41937,7 +42025,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1380,
+    "id": 1383,
     "nombre": "Parque Valle del Elqui",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41966,7 +42054,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1381,
+    "id": 1384,
     "nombre": "Parque José Luis Infante Larrain",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -41995,7 +42083,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1382,
+    "id": 1385,
     "nombre": "Plaza Francisco Bulnes Correa",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42024,36 +42112,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1383,
-    "nombre": "Plaza Francisco Bulnes Correa",
-    "descripcion": "",
-    "categoria": "aire_libre",
-    "subcategoria": "parque",
-    "tipo": [
-      "solo",
-      "pareja",
-      "familia"
-    ],
-    "precio": {
-      "tipo": "gratis",
-      "valor": 0,
-      "moneda": "CLP"
-    },
-    "ubicacion": {
-      "direccion": "",
-      "comuna": "Santiago",
-      "region": "RM",
-      "lat": -33.3927101,
-      "lng": -70.5162633
-    },
-    "tags": [
-      "leisure",
-      "name"
-    ],
-    "fuente": "openstreetmap"
-  },
-  {
-    "id": 1384,
+    "id": 1386,
     "nombre": "Plaza La Sinfonía",
     "descripcion": "plaza de juegos",
     "categoria": "aire_libre",
@@ -42085,7 +42144,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1385,
+    "id": 1387,
     "nombre": "Plaza Los Jacintos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42118,7 +42177,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1386,
+    "id": 1388,
     "nombre": "Plaza Huerquehue Norte",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42151,7 +42210,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1387,
+    "id": 1389,
     "nombre": "Plaza El Molino",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42184,7 +42243,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1388,
+    "id": 1390,
     "nombre": "Plaza La Sinfonía",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42215,7 +42274,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1389,
+    "id": 1391,
     "nombre": "Plaza Cívica",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42245,7 +42304,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1390,
+    "id": 1392,
     "nombre": "Plaza Ccordillera de Los Andes",
     "descripcion": "plaza de juegos",
     "categoria": "aire_libre",
@@ -42279,7 +42338,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1391,
+    "id": 1393,
     "nombre": "Plaza Tempo Votivo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42312,7 +42371,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1392,
+    "id": 1394,
     "nombre": "Plaza La Reforma",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42345,7 +42404,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1393,
+    "id": 1395,
     "nombre": "Plaza Batalla de Maipú",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42378,7 +42437,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1394,
+    "id": 1396,
     "nombre": "Plaza 10 de Julio",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42411,7 +42470,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1395,
+    "id": 1397,
     "nombre": "Plaza Rosa del Valle",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42440,7 +42499,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1396,
+    "id": 1398,
     "nombre": "Plaza Mar de chile",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42469,7 +42528,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1397,
+    "id": 1399,
     "nombre": "Parque Calicura",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42498,7 +42557,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1398,
+    "id": 1400,
     "nombre": "Plaza Millahue",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42527,7 +42586,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1399,
+    "id": 1401,
     "nombre": "Plaza Nalcahue",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42556,7 +42615,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1400,
+    "id": 1402,
     "nombre": "Plaza Chancura",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42585,7 +42644,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1401,
+    "id": 1403,
     "nombre": "Plaza Chancura",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42614,7 +42673,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1402,
+    "id": 1404,
     "nombre": "Plaza Chancura",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42645,7 +42704,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1403,
+    "id": 1405,
     "nombre": "Plaza Chancura",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42676,7 +42735,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1404,
+    "id": 1406,
     "nombre": "Plaza Chancura",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42705,7 +42764,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1405,
+    "id": 1407,
     "nombre": "Plaza Los Tornados",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42734,7 +42793,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1406,
+    "id": 1408,
     "nombre": "Plaza Carlos Condell",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42763,7 +42822,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1407,
+    "id": 1409,
     "nombre": "Paseo Peatonal El Tabo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42796,7 +42855,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1408,
+    "id": 1410,
     "nombre": "Plaza Cardenal Raúl Silva Henríquez",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42826,7 +42885,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1409,
+    "id": 1411,
     "nombre": "Plaza Lo Fontecilla",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42855,7 +42914,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1410,
+    "id": 1412,
     "nombre": "Plaza Bellatrix",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42884,7 +42943,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1411,
+    "id": 1413,
     "nombre": "Plaza Camarones",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42913,7 +42972,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1412,
+    "id": 1414,
     "nombre": "Plaza Cicarelli",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42942,7 +43001,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1413,
+    "id": 1415,
     "nombre": "Plaza Oscar Bonilla",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -42971,7 +43030,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1414,
+    "id": 1416,
     "nombre": "Plaza Alex Núñez",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43002,7 +43061,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1415,
+    "id": 1417,
     "nombre": "Plaza Puertos de Chile",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43031,7 +43090,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1416,
+    "id": 1418,
     "nombre": "Parque San Rafael",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43060,7 +43119,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1417,
+    "id": 1419,
     "nombre": "Parque Barrio Lautaro 2",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43089,7 +43148,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1418,
+    "id": 1420,
     "nombre": "Parque Barrio Lautaro 1",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43118,7 +43177,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1419,
+    "id": 1421,
     "nombre": "Plaza Centro de Atención Municipal Ciudad Satélite",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43147,7 +43206,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1420,
+    "id": 1422,
     "nombre": "Plaza Cartagena",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43176,7 +43235,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1421,
+    "id": 1423,
     "nombre": "Plaza Julio Barrenechea",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43205,7 +43264,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1422,
+    "id": 1424,
     "nombre": "Gabriela Mistral",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43234,7 +43293,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1423,
+    "id": 1425,
     "nombre": "Isabel Bravo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43263,7 +43322,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1424,
+    "id": 1426,
     "nombre": "Parque Raúl Hernandez Urra",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43292,7 +43351,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1425,
+    "id": 1427,
     "nombre": "Plaza Paiguano",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43321,7 +43380,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1426,
+    "id": 1428,
     "nombre": "Plaza La Canela",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43350,7 +43409,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1427,
+    "id": 1429,
     "nombre": "Plaza Ismael Pardo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43379,7 +43438,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1428,
+    "id": 1430,
     "nombre": "Plaza Los Zorzales",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43408,7 +43467,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1429,
+    "id": 1431,
     "nombre": "Plaza Gonzalo Bernal",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43437,7 +43496,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1430,
+    "id": 1432,
     "nombre": "Plaza Quillagua",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43466,7 +43525,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1431,
+    "id": 1433,
     "nombre": "Plaza Abisinia",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43495,7 +43554,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1432,
+    "id": 1434,
     "nombre": "Parque El Monte",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43524,7 +43583,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1433,
+    "id": 1435,
     "nombre": "Plaza Torreblanca",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43553,7 +43612,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1434,
+    "id": 1436,
     "nombre": "Plaza Los Mayas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43582,7 +43641,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1435,
+    "id": 1437,
     "nombre": "Placita Los Araucanos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43611,7 +43670,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1436,
+    "id": 1438,
     "nombre": "Plaza Milán",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43640,7 +43699,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1437,
+    "id": 1439,
     "nombre": "Plazoleta Aeródromo Eulogio Sánchez Errázuriz",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43673,7 +43732,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1438,
+    "id": 1440,
     "nombre": "Plazueleta del Cuerpo de Bomberos de La Granja",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43702,7 +43761,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1439,
+    "id": 1441,
     "nombre": "Parque Fernández Albano",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43731,7 +43790,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1440,
+    "id": 1442,
     "nombre": "Parque La Alborada",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43760,7 +43819,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1441,
+    "id": 1443,
     "nombre": "Plaza Mañío",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43789,7 +43848,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1442,
+    "id": 1444,
     "nombre": "Parque Maihue",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43818,7 +43877,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1443,
+    "id": 1445,
     "nombre": "Plaza Gazitúa",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43847,7 +43906,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1444,
+    "id": 1446,
     "nombre": "Plaza de los Artesanos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43876,7 +43935,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1445,
+    "id": 1447,
     "nombre": "Plaza SAPU / Villa Sur",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43905,7 +43964,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1446,
+    "id": 1448,
     "nombre": "Parque Escultórico",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43934,7 +43993,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1447,
+    "id": 1449,
     "nombre": "Plaza Londres",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -43963,7 +44022,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1448,
+    "id": 1450,
     "nombre": "Parque Vespucio Oriente",
     "descripcion": "es:Parque Vespucio Oriente",
     "categoria": "aire_libre",
@@ -44002,7 +44061,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1449,
+    "id": 1451,
     "nombre": "Plaza Diego Portales",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44031,7 +44090,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1450,
+    "id": 1452,
     "nombre": "Plaza Central",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44060,7 +44119,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1451,
+    "id": 1453,
     "nombre": "Plaza Conejitos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44089,7 +44148,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1452,
+    "id": 1454,
     "nombre": "Plaza Puerta de Hierro",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44118,7 +44177,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1453,
+    "id": 1455,
     "nombre": "Parque Cortés-Fernández",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44147,7 +44206,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1454,
+    "id": 1456,
     "nombre": "Parque Cortés-Fernández",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44176,7 +44235,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1455,
+    "id": 1457,
     "nombre": "Parque Vespucio Oriente",
     "descripcion": "es:Parque Vespucio Oriente",
     "categoria": "aire_libre",
@@ -44215,7 +44274,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1456,
+    "id": 1458,
     "nombre": "Plaza Dos Norte",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44244,7 +44303,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1457,
+    "id": 1459,
     "nombre": "Plaza Blanca Vergara",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44273,7 +44332,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1458,
+    "id": 1460,
     "nombre": "Museo Ciudadano Vicuña Mackenna",
     "descripcion": "es:Museo Nacional Benjamín Vicuña Mackenna",
     "categoria": "cultura",
@@ -44319,7 +44378,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1459,
+    "id": 1461,
     "nombre": "Parque Arboleda El Cortijo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44348,7 +44407,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1460,
+    "id": 1462,
     "nombre": "Plaza Parque del Cielo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44377,7 +44436,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1461,
+    "id": 1463,
     "nombre": "Plaza El Sauce",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44406,7 +44465,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1462,
+    "id": 1464,
     "nombre": "Plaza Taitao",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44435,7 +44494,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1463,
+    "id": 1465,
     "nombre": "Parque Los Portales de Santa Ana",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44464,7 +44523,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1464,
+    "id": 1466,
     "nombre": "Plaza Isaias",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44493,7 +44552,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1465,
+    "id": 1467,
     "nombre": "Plaza Chañaral",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44522,7 +44581,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1466,
+    "id": 1468,
     "nombre": "Parque Judea",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44551,7 +44610,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1467,
+    "id": 1469,
     "nombre": "Parque Toqui Aillavillú",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44580,7 +44639,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1468,
+    "id": 1470,
     "nombre": "Parque Toqui Aillavillú",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44609,7 +44668,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1469,
+    "id": 1471,
     "nombre": "Plaza Judea Sur",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44638,7 +44697,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1470,
+    "id": 1472,
     "nombre": "Plaza Presidente Sadat",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44667,7 +44726,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1471,
+    "id": 1473,
     "nombre": "Plaza Amenofis",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44696,7 +44755,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1472,
+    "id": 1474,
     "nombre": "Plaza Judea Norte",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44725,7 +44784,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1473,
+    "id": 1475,
     "nombre": "Plaza Marco Antonio Uno",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44754,7 +44813,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1474,
+    "id": 1476,
     "nombre": "Plaza Marco Antonio Dos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44783,7 +44842,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1475,
+    "id": 1477,
     "nombre": "Parque Abisinia",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44812,7 +44871,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1476,
+    "id": 1478,
     "nombre": "Parque Cortés-Fernández",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44841,7 +44900,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1477,
+    "id": 1479,
     "nombre": "Parque Cortés-Fernández",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44870,7 +44929,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1478,
+    "id": 1480,
     "nombre": "Plaza María Tudor",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44899,7 +44958,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1479,
+    "id": 1481,
     "nombre": "Plaza Gran Misión",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44928,7 +44987,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1480,
+    "id": 1482,
     "nombre": "Plaza San Gustavo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44957,7 +45016,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1481,
+    "id": 1483,
     "nombre": "Plaza Trimegisto",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -44986,7 +45045,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1482,
+    "id": 1484,
     "nombre": "Plaza Diego Colombo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45015,7 +45074,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1483,
+    "id": 1485,
     "nombre": "Plaza Herodes",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45044,7 +45103,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1484,
+    "id": 1486,
     "nombre": "Plaza René Schneider",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45073,7 +45132,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1485,
+    "id": 1487,
     "nombre": "Plaza Villa Los Escritores",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45104,7 +45163,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1486,
+    "id": 1488,
     "nombre": "Plaza Cívica de La Pintana",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45134,7 +45193,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1487,
+    "id": 1489,
     "nombre": "Plazuela Parque Central",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45163,7 +45222,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1488,
+    "id": 1490,
     "nombre": "Plaza Villa Los Portales",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45192,7 +45251,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1489,
+    "id": 1491,
     "nombre": "Plaza Purranque",
     "descripcion": "Pequeña plaza pública (inferior a 300 metros cuadrados) ubicada en la Villa Santa Carmen, en la comuna de Maipú. Por su reducido tamaño, no cuenta con equipamiento.",
     "categoria": "aire_libre",
@@ -45228,7 +45287,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1490,
+    "id": 1492,
     "nombre": "Parque Las torres Norte",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45257,7 +45316,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1491,
+    "id": 1493,
     "nombre": "Plaza Villa Esmeralda",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45286,7 +45345,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1492,
+    "id": 1494,
     "nombre": "Plaza Cabo 2º Cristián Martínez Badilla",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45315,7 +45374,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1493,
+    "id": 1495,
     "nombre": "Plaza Nueva Luna",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45344,7 +45403,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1494,
+    "id": 1496,
     "nombre": "Parque El Mañío",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45374,7 +45433,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1495,
+    "id": 1497,
     "nombre": "Plaza El Corazón de la Villa",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45403,7 +45462,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1496,
+    "id": 1498,
     "nombre": "Paseo Chincol",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45435,7 +45494,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1497,
+    "id": 1499,
     "nombre": "Plaza Piedra Roja",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45464,7 +45523,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1498,
+    "id": 1500,
     "nombre": "Plaza Eluney",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45493,7 +45552,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1499,
+    "id": 1501,
     "nombre": "Parque Marathon",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45528,7 +45587,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1500,
+    "id": 1502,
     "nombre": "Plaza Tierra Santa",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45557,7 +45616,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1501,
+    "id": 1503,
     "nombre": "Plaza Primo de Rivera",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45586,7 +45645,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1502,
+    "id": 1504,
     "nombre": "Plaza Ecuador",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45615,7 +45674,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1503,
+    "id": 1505,
     "nombre": "Parque Santa Maria Sur",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45644,7 +45703,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1504,
+    "id": 1506,
     "nombre": "Plaza de Juegos Nueva Tobalaba",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45674,7 +45733,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1505,
+    "id": 1507,
     "nombre": "Plaza de Juegos Nueva Tobalaba",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45704,7 +45763,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1506,
+    "id": 1508,
     "nombre": "Plaza de Juegos Nueva Tobalaba",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45734,7 +45793,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1507,
+    "id": 1509,
     "nombre": "Magdalena 2",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45763,7 +45822,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1508,
+    "id": 1510,
     "nombre": "Modesta Carolina Wiff Sepúlveda",
     "descripcion": "En conmemoración 50 años Golpe de Estado, renombrando como Modesta Carolina Wiff Sepúlveda fue una trabajadora social chilena, militante del Partido Socialista de Chile, detenida por agentes de la DINA el 25 de junio de 1975.",
     "categoria": "aire_libre",
@@ -45801,7 +45860,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1509,
+    "id": 1511,
     "nombre": "Plaza Pintor Alberto Valenzuela Llanos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45830,7 +45889,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1510,
+    "id": 1512,
     "nombre": "Espacio de Memoria Londres 38",
     "descripcion": "es:Londres 38",
     "categoria": "cultura",
@@ -45869,7 +45928,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1511,
+    "id": 1513,
     "nombre": "Plaza Mercurial",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45899,7 +45958,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1512,
+    "id": 1514,
     "nombre": "Parque Central",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45928,7 +45987,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1513,
+    "id": 1515,
     "nombre": "Plaza Diego Portales",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45957,7 +46016,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1514,
+    "id": 1516,
     "nombre": "Parque Autopista Central",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -45986,7 +46045,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1515,
+    "id": 1517,
     "nombre": "Plaza Pastizal",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46015,7 +46074,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1516,
+    "id": 1518,
     "nombre": "Plaza Frutillar",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46044,7 +46103,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1517,
+    "id": 1519,
     "nombre": "Plaza Los Jacarandas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46073,7 +46132,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1518,
+    "id": 1520,
     "nombre": "Plaza Parronal",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46102,7 +46161,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1519,
+    "id": 1521,
     "nombre": "Plaza María Luisa Bombal",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46131,7 +46190,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1520,
+    "id": 1522,
     "nombre": "Plaza Tagle",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46160,7 +46219,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1521,
+    "id": 1523,
     "nombre": "Parque El Esfuerzo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46189,7 +46248,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1522,
+    "id": 1524,
     "nombre": "La Sierra de Chicureo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46218,7 +46277,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1523,
+    "id": 1525,
     "nombre": "Plaza San Cristobal",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46248,7 +46307,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1524,
+    "id": 1526,
     "nombre": "Los Suspiros",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46278,7 +46337,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1525,
+    "id": 1527,
     "nombre": "Plazoleta El Trébol",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46307,7 +46366,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1526,
+    "id": 1528,
     "nombre": "Plaza Villa Cuprito",
     "descripcion": "Plaza Villa Cuprito",
     "categoria": "aire_libre",
@@ -46339,7 +46398,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1527,
+    "id": 1529,
     "nombre": "Plaza Iquique",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46368,7 +46427,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1528,
+    "id": 1530,
     "nombre": "Plaza Observatorio",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46398,7 +46457,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1529,
+    "id": 1531,
     "nombre": "Parque Centro Ceremonial de Pueblos Originarios",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46433,7 +46492,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1530,
+    "id": 1532,
     "nombre": "Plaza Los Mayas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46462,7 +46521,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1531,
+    "id": 1533,
     "nombre": "Plaza de la Unión",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46491,7 +46550,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1532,
+    "id": 1534,
     "nombre": "Plazaoleta Las Flores",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46520,7 +46579,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1533,
+    "id": 1535,
     "nombre": "Plaza Brunelleschi",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46549,7 +46608,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1534,
+    "id": 1536,
     "nombre": "Plaza Don Carlos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46578,7 +46637,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1535,
+    "id": 1537,
     "nombre": "Plazoleta el Peral",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46607,7 +46666,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1536,
+    "id": 1538,
     "nombre": "Plaza Las Nieves",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46636,7 +46695,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1537,
+    "id": 1539,
     "nombre": "Placita Tantauco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46665,7 +46724,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1538,
+    "id": 1540,
     "nombre": "Plaza Los Sicomorros",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46694,7 +46753,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1539,
+    "id": 1541,
     "nombre": "Plaza Los Enebros",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46723,7 +46782,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1540,
+    "id": 1542,
     "nombre": "Plaza Las Dracenas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46752,7 +46811,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1541,
+    "id": 1543,
     "nombre": "Plaza El Hualle",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46781,7 +46840,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1542,
+    "id": 1544,
     "nombre": "Plaza Pasaje Treinte y tres",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46810,7 +46869,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1543,
+    "id": 1545,
     "nombre": "Plaza Pasaje Treinte y seis",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46839,7 +46898,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1544,
+    "id": 1546,
     "nombre": "Plaza Los Membrillos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46868,7 +46927,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1545,
+    "id": 1547,
     "nombre": "Plaza Los Limoneros",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46897,7 +46956,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1546,
+    "id": 1548,
     "nombre": "6-020",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46926,7 +46985,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1547,
+    "id": 1549,
     "nombre": "Plaza Los Copihues",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46955,7 +47014,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1548,
+    "id": 1550,
     "nombre": "Plaza Altos de Quilicura",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -46986,7 +47045,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1549,
+    "id": 1551,
     "nombre": "Plaza Villa Carampangue",
     "descripcion": "Plaza con juegos infantiles para niños y bancas para sentarse",
     "categoria": "aire_libre",
@@ -47017,7 +47076,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1550,
+    "id": 1552,
     "nombre": "Plaza Augusto D'Halmar",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47047,7 +47106,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1551,
+    "id": 1553,
     "nombre": "Plaza Villa Las Golondrinas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47077,7 +47136,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1552,
+    "id": 1554,
     "nombre": "Plaza Municipalidad de Quilicura",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47106,7 +47165,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1553,
+    "id": 1555,
     "nombre": "Parque Genaro Rodríguez",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47135,8 +47194,8 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1554,
-    "nombre": "Parque San Andres",
+    "id": 1556,
+    "nombre": "Parque San Andrés",
     "descripcion": "",
     "categoria": "aire_libre",
     "subcategoria": "parque",
@@ -47164,7 +47223,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1555,
+    "id": 1557,
     "nombre": "Parque Nuestra Santa Familia",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47198,7 +47257,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1556,
+    "id": 1558,
     "nombre": "Plaza Nueve Oriente",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47227,7 +47286,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1557,
+    "id": 1559,
     "nombre": "Plaza Argel",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47256,7 +47315,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1558,
+    "id": 1560,
     "nombre": "Plaza Recreo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47285,7 +47344,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1559,
+    "id": 1561,
     "nombre": "Plaza San José",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47314,7 +47373,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1560,
+    "id": 1562,
     "nombre": "Plaza Rosita Lemus",
     "descripcion": "Plaza Pública desarrollada el año 2009, con Fondo Social Presidente de la República.",
     "categoria": "aire_libre",
@@ -47346,7 +47405,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1561,
+    "id": 1563,
     "nombre": "Plaza Salomon Sumar",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47375,7 +47434,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1562,
+    "id": 1564,
     "nombre": "Plaza Puertos de Chile",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47404,7 +47463,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1563,
+    "id": 1565,
     "nombre": "Parque Los Canelos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47433,7 +47492,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1564,
+    "id": 1566,
     "nombre": "Parque Los Canelos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47462,7 +47521,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1565,
+    "id": 1567,
     "nombre": "Plaza El Amanecer",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47492,7 +47551,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1566,
+    "id": 1568,
     "nombre": "Plaza Sarita Bitran",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47525,7 +47584,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1567,
+    "id": 1569,
     "nombre": "Plaza Bonilla",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47554,7 +47613,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1568,
+    "id": 1570,
     "nombre": "Parque Avenida Quilin",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47583,7 +47642,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1569,
+    "id": 1571,
     "nombre": "Plaza Jorge Montt",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47613,7 +47672,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1570,
+    "id": 1572,
     "nombre": "Plaza General Yañez",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47642,7 +47701,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1571,
+    "id": 1573,
     "nombre": "Plaza Padre Llido",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47671,7 +47730,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1572,
+    "id": 1574,
     "nombre": "Placita Victoria Parra",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47700,7 +47759,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1573,
+    "id": 1575,
     "nombre": "Parque Avenida Observatorio",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47732,7 +47791,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1574,
+    "id": 1576,
     "nombre": "Parque Avenida Observatorio",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47761,7 +47820,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1575,
+    "id": 1577,
     "nombre": "Parque Avenida Observatorio",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47790,7 +47849,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1576,
+    "id": 1578,
     "nombre": "Parque Avenida Observatorio",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47819,7 +47878,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1577,
+    "id": 1579,
     "nombre": "Parque Avenida Observatorio",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47848,7 +47907,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1578,
+    "id": 1580,
     "nombre": "Parque Avenida Observatorio",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47877,7 +47936,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1579,
+    "id": 1581,
     "nombre": "Parque Avenida Observatorio",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47906,7 +47965,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1580,
+    "id": 1582,
     "nombre": "Plaza Los Aviadores",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47935,7 +47994,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1581,
+    "id": 1583,
     "nombre": "Plaza Los Aviadores",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47964,7 +48023,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1582,
+    "id": 1584,
     "nombre": "Plaza Los Aviadores",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -47993,7 +48052,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1583,
+    "id": 1585,
     "nombre": "Plaza San Francisco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48022,7 +48081,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1584,
+    "id": 1586,
     "nombre": "Plaza Los Sauces",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48051,7 +48110,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1585,
+    "id": 1587,
     "nombre": "Plaza Los Laureles",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48080,7 +48139,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1586,
+    "id": 1588,
     "nombre": "Plaza Astaburuaga",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48109,7 +48168,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1587,
+    "id": 1589,
     "nombre": "Parque San Mateo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48138,7 +48197,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1588,
+    "id": 1590,
     "nombre": "Plaza Lucerna 1 Oriente",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48167,7 +48226,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1589,
+    "id": 1591,
     "nombre": "Plaza Eleodoro Rodríguez Matte",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48196,7 +48255,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1590,
+    "id": 1592,
     "nombre": "Bandejon Central Ejército Libertador",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48225,7 +48284,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1591,
+    "id": 1593,
     "nombre": "Plaza Los Plátanos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48258,7 +48317,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1592,
+    "id": 1594,
     "nombre": "Parque Ortuzano",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48287,7 +48346,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1593,
+    "id": 1595,
     "nombre": "Parque Ortuzano",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48316,7 +48375,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1594,
+    "id": 1596,
     "nombre": "Plazoleta Marruecos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48347,7 +48406,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1595,
+    "id": 1597,
     "nombre": "Plazoleta Nueve de Marzo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48376,7 +48435,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1596,
+    "id": 1598,
     "nombre": "Plaza San Pablo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48405,7 +48464,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1597,
+    "id": 1599,
     "nombre": "Parque Neptuno",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48434,7 +48493,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1598,
+    "id": 1600,
     "nombre": "Parque Neptuno",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48463,7 +48522,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1599,
+    "id": 1601,
     "nombre": "Museo de la Solidaridad Salvador Allende",
     "descripcion": "es:Museo de la Solidaridad Salvador Allende",
     "categoria": "cultura",
@@ -48502,7 +48561,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1600,
+    "id": 1602,
     "nombre": "Plazoleta Tropezón",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48531,7 +48590,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1601,
+    "id": 1603,
     "nombre": "Plaza Pamelita",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48566,7 +48625,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1602,
+    "id": 1604,
     "nombre": "Parque Inundable Víctor Jara",
     "descripcion": "es:Parque Intercomunal Víctor Jara",
     "categoria": "aire_libre",
@@ -48598,7 +48657,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1603,
+    "id": 1605,
     "nombre": "Parque Costanera Escrivá de Balaguer",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48627,7 +48686,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1604,
+    "id": 1606,
     "nombre": "Parque MinistroBenjamín Teplinzky Lijavetzky",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48658,7 +48717,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1605,
+    "id": 1607,
     "nombre": "Plaza Alejandro Guzman",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48687,7 +48746,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1606,
+    "id": 1608,
     "nombre": "Plaza Juan de Bastidas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48716,7 +48775,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1607,
+    "id": 1609,
     "nombre": "Plaza Pigafetta",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48745,7 +48804,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1608,
+    "id": 1610,
     "nombre": "Esperanza del Padre Hurtado",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48764,8 +48823,8 @@
       "direccion": "",
       "comuna": "Conchalí",
       "region": "RM",
-      "lat": -33.3818742,
-      "lng": -70.6844998
+      "lat": -33.3818512,
+      "lng": -70.6844885
     },
     "tags": [
       "addr:city",
@@ -48776,7 +48835,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1609,
+    "id": 1611,
     "nombre": "Lincoln",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48807,7 +48866,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1610,
+    "id": 1612,
     "nombre": "Plaza Los Sauces",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48836,7 +48895,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1611,
+    "id": 1613,
     "nombre": "Museo de la Merced",
     "descripcion": "",
     "categoria": "cultura",
@@ -48869,7 +48928,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1612,
+    "id": 1614,
     "nombre": "Museo de la Música Chilena",
     "descripcion": "",
     "categoria": "cultura",
@@ -48907,7 +48966,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1613,
+    "id": 1615,
     "nombre": "Plaza Central San Alberto de Cerrillos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48936,7 +48995,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1614,
+    "id": 1616,
     "nombre": "Plaza Debbie Jael",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48965,7 +49024,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1615,
+    "id": 1617,
     "nombre": "Parque Víctor Jara",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -48994,7 +49053,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1616,
+    "id": 1618,
     "nombre": "Plaza Pablo Neruda",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49026,7 +49085,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1617,
+    "id": 1619,
     "nombre": "Plazoleta de La Merced",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49057,7 +49116,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1618,
+    "id": 1620,
     "nombre": "Parque Cerro Blanco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49087,7 +49146,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1619,
+    "id": 1621,
     "nombre": "Parque Central",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49116,7 +49175,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1620,
+    "id": 1622,
     "nombre": "Museo Digital",
     "descripcion": "",
     "categoria": "cultura",
@@ -49149,7 +49208,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1621,
+    "id": 1623,
     "nombre": "Plaza Solar Cruz del Sur",
     "descripcion": "",
     "categoria": "entretenimiento",
@@ -49183,7 +49242,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1622,
+    "id": 1624,
     "nombre": "Museo Herencia Campesina",
     "descripcion": "",
     "categoria": "cultura",
@@ -49216,7 +49275,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1623,
+    "id": 1625,
     "nombre": "Parque Nuevo Siglo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49246,7 +49305,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1624,
+    "id": 1626,
     "nombre": "Plaza 12 de Octubre",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49275,7 +49334,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1625,
+    "id": 1627,
     "nombre": "Plaza Puerto Varas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49304,7 +49363,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1626,
+    "id": 1628,
     "nombre": "Plaza Los Nísperos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49336,7 +49395,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1627,
+    "id": 1629,
     "nombre": "Plaza Romeral-Trigal",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49365,7 +49424,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1628,
+    "id": 1630,
     "nombre": "Centro Urbano y Deportivo Los Esteros",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49394,7 +49453,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1629,
+    "id": 1631,
     "nombre": "Bandejon Aeropuerto",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49423,7 +49482,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1630,
+    "id": 1632,
     "nombre": "Plaza Los Arrayanes",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49452,7 +49511,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1631,
+    "id": 1633,
     "nombre": "Jardín Juana Jugan",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49485,7 +49544,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1632,
+    "id": 1634,
     "nombre": "Parque largo de Avenida Jorge Ross Ossa",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49515,7 +49574,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1633,
+    "id": 1635,
     "nombre": "Plaza San Francisco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49544,7 +49603,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1634,
+    "id": 1636,
     "nombre": "Plaza San Francisco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49573,7 +49632,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1635,
+    "id": 1637,
     "nombre": "Plaza San Francisco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49602,7 +49661,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1636,
+    "id": 1638,
     "nombre": "Plaza Conjunto San Luis",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49631,7 +49690,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1637,
+    "id": 1639,
     "nombre": "Parque de Peñalolén",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49661,7 +49720,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1638,
+    "id": 1640,
     "nombre": "Plaza Conjunto San Luis",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49690,7 +49749,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1639,
+    "id": 1641,
     "nombre": "Parque Vespucio Oriente",
     "descripcion": "es:Parque Vespucio Oriente",
     "categoria": "aire_libre",
@@ -49729,7 +49788,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1640,
+    "id": 1642,
     "nombre": "Plaza Villa Margarita",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49758,7 +49817,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1641,
+    "id": 1643,
     "nombre": "Plaza Deportiva",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49787,7 +49846,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1642,
+    "id": 1644,
     "nombre": "Parque Vespucio Oriente",
     "descripcion": "es:Parque Vespucio Oriente",
     "categoria": "aire_libre",
@@ -49826,7 +49885,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1643,
+    "id": 1645,
     "nombre": "Plaza Lago Lugano",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49855,7 +49914,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1644,
+    "id": 1646,
     "nombre": "Plaza Lago Lugano 2",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49884,7 +49943,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1645,
+    "id": 1647,
     "nombre": "Bandejón Entrada Ciudad Satélite",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -49913,7 +49972,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1646,
+    "id": 1648,
     "nombre": "Museo Comunitario del Barrio Matta Sur",
     "descripcion": "",
     "categoria": "cultura",
@@ -49950,7 +50009,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1647,
+    "id": 1649,
     "nombre": "Museo Histórico Militar",
     "descripcion": "es:Museo Histórico y Militar de Chile",
     "categoria": "cultura",
@@ -49985,7 +50044,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1648,
+    "id": 1650,
     "nombre": "Parque Francisco Bulnes",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50014,7 +50073,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1649,
+    "id": 1651,
     "nombre": "Parque Quebrada Los Loros/El Peumo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50043,7 +50102,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1650,
+    "id": 1652,
     "nombre": "Parque Los Litres",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50072,7 +50131,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1651,
+    "id": 1653,
     "nombre": "Plaza Juan Pablo II",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50101,7 +50160,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1652,
+    "id": 1654,
     "nombre": "Plaza Pircas Viejas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50130,7 +50189,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1653,
+    "id": 1655,
     "nombre": "Quebrada Pie Andino",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50160,7 +50219,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1654,
+    "id": 1656,
     "nombre": "La Carbonera",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50189,7 +50248,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1655,
+    "id": 1657,
     "nombre": "Parque Huechuraba",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50218,7 +50277,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1656,
+    "id": 1658,
     "nombre": "Plaza Basel",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50247,7 +50306,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1657,
+    "id": 1659,
     "nombre": "Plaza Berna",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50276,7 +50335,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1658,
+    "id": 1660,
     "nombre": "Parque Mapocho Río Tramo 4",
     "descripcion": "es:Parque Mapocho Río",
     "categoria": "aire_libre",
@@ -50313,7 +50372,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1659,
+    "id": 1661,
     "nombre": "Plaza Ronald Wood",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50344,7 +50403,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1660,
+    "id": 1662,
     "nombre": "Parque Vespucio Oriente",
     "descripcion": "es:Parque Vespucio Oriente",
     "categoria": "aire_libre",
@@ -50383,7 +50442,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1661,
+    "id": 1663,
     "nombre": "Parque Vespucio Oriente",
     "descripcion": "es:Parque Vespucio Oriente",
     "categoria": "aire_libre",
@@ -50422,7 +50481,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1662,
+    "id": 1664,
     "nombre": "Parque Vespucio Oriente",
     "descripcion": "es:Parque Vespucio Oriente",
     "categoria": "aire_libre",
@@ -50461,7 +50520,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1663,
+    "id": 1665,
     "nombre": "Plaza Zenteno",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50492,7 +50551,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1664,
+    "id": 1666,
     "nombre": "Artesana Alicia Cáceres",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50528,7 +50587,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1665,
+    "id": 1667,
     "nombre": "Plaza Vicente Huidobro",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50557,7 +50616,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1666,
+    "id": 1668,
     "nombre": "Plaza Vicente Huidobro",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50586,7 +50645,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1667,
+    "id": 1669,
     "nombre": "Plaza Vicente Huidobro",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50615,7 +50674,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1668,
+    "id": 1670,
     "nombre": "Plaza Vicente Huidobro",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50644,7 +50703,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1669,
+    "id": 1671,
     "nombre": "Plaza San Francisco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50673,7 +50732,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1670,
+    "id": 1672,
     "nombre": "Plaza San Francisco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50702,7 +50761,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1671,
+    "id": 1673,
     "nombre": "Plaza San Francisco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50731,7 +50790,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1672,
+    "id": 1674,
     "nombre": "Placita Newen",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50760,7 +50819,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1673,
+    "id": 1675,
     "nombre": "Plaza Winnipeg",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50789,7 +50848,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1674,
+    "id": 1676,
     "nombre": "Plaza El Pedregal",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50818,7 +50877,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1675,
+    "id": 1677,
     "nombre": "Plaza Gabriela Mistral",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50848,7 +50907,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1676,
+    "id": 1678,
     "nombre": "Plaza José Santos González Vera",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50881,7 +50940,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1677,
+    "id": 1679,
     "nombre": "Parque Mapocho Río Tramo 1",
     "descripcion": "El tramo 1 posee 8.2 hectáreas entre Pasaje Nueve y Puente Los Suspiros en Quinta Normal.",
     "categoria": "aire_libre",
@@ -50924,7 +50983,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1678,
+    "id": 1680,
     "nombre": "Espacio Público Juan Meyer",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -50954,7 +51013,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1679,
+    "id": 1681,
     "nombre": "Parque Mapocho Río Tramo 2",
     "descripcion": "es:Parque Mapocho Río",
     "categoria": "aire_libre",
@@ -50996,7 +51055,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1680,
+    "id": 1682,
     "nombre": "Parque Esteban Gumucio Oriente",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51028,7 +51087,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1681,
+    "id": 1683,
     "nombre": "Paseo Peatonal Las Industrias",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51058,7 +51117,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1682,
+    "id": 1684,
     "nombre": "Plaza Villa La Primavera",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51089,7 +51148,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1683,
+    "id": 1685,
     "nombre": "Plaza Villa La Primavera",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51119,7 +51178,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1684,
+    "id": 1686,
     "nombre": "Plaza Acceso Sur",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51148,7 +51207,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1685,
+    "id": 1687,
     "nombre": "Plaza Acceso Sur 2",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51177,7 +51236,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1686,
+    "id": 1688,
     "nombre": "Plaza Acceso Sur 3",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51206,7 +51265,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1687,
+    "id": 1689,
     "nombre": "Plaza Acceso Sur 4",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51235,7 +51294,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1688,
+    "id": 1690,
     "nombre": "Museo Interactivo Judío de Chile",
     "descripcion": "",
     "categoria": "cultura",
@@ -51268,7 +51327,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1689,
+    "id": 1691,
     "nombre": "Parque Francisco Coloane",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51297,7 +51356,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1690,
+    "id": 1692,
     "nombre": "Parque Pedro Fontova",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51316,8 +51375,8 @@
       "direccion": "",
       "comuna": "Santiago",
       "region": "RM",
-      "lat": -33.3843693,
-      "lng": -70.6722472
+      "lat": -33.3843715,
+      "lng": -70.67227
     },
     "tags": [
       "leisure",
@@ -51326,7 +51385,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1691,
+    "id": 1693,
     "nombre": "Parque Óscar Castro",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51355,7 +51414,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1692,
+    "id": 1694,
     "nombre": "Piscina Municipal Lo Velásquez",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51390,7 +51449,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1693,
+    "id": 1695,
     "nombre": "Plaza Chungará",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51421,7 +51480,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1694,
+    "id": 1696,
     "nombre": "Plaza Buenaventura",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51455,7 +51514,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1695,
+    "id": 1697,
     "nombre": "Plaza Godfrey Stevens",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51489,7 +51548,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1696,
+    "id": 1698,
     "nombre": "Plaza La Portada",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51518,7 +51577,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1697,
+    "id": 1699,
     "nombre": "Museo Paleontológico de Chile",
     "descripcion": "",
     "categoria": "cultura",
@@ -51552,7 +51611,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1698,
+    "id": 1700,
     "nombre": "Barco Pirata",
     "descripcion": "",
     "categoria": "entretenimiento",
@@ -51582,7 +51641,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1699,
+    "id": 1701,
     "nombre": "Jardines FADEU",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51614,7 +51673,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1700,
+    "id": 1702,
     "nombre": "Parque de Negocios Lo Recabarren",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51648,7 +51707,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1701,
+    "id": 1703,
     "nombre": "Museo Alberto Hurtado",
     "descripcion": "",
     "categoria": "cultura",
@@ -51687,7 +51746,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1702,
+    "id": 1704,
     "nombre": "Plaza Superintendente Claudio Herrera Prieto",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51716,7 +51775,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1703,
+    "id": 1705,
     "nombre": "Marathon Sur",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51750,7 +51809,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1704,
+    "id": 1706,
     "nombre": "Plaza Las Heras",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51779,7 +51838,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1705,
+    "id": 1707,
     "nombre": "Museo Judío Alemán de Santiago",
     "descripcion": "es:Museo Judío Alemán de Santiago",
     "categoria": "cultura",
@@ -51819,7 +51878,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1706,
+    "id": 1708,
     "nombre": "Parque Los Cardos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51849,7 +51908,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1707,
+    "id": 1709,
     "nombre": "Parque El Molino",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51878,7 +51937,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1708,
+    "id": 1710,
     "nombre": "Plaza Freire",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51907,7 +51966,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1709,
+    "id": 1711,
     "nombre": "Parque El Pajonal",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -51936,7 +51995,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1710,
+    "id": 1712,
     "nombre": "Museo Violeta Parra",
     "descripcion": "es:Museo Violeta Parra",
     "categoria": "cultura",
@@ -51975,7 +52034,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1711,
+    "id": 1713,
     "nombre": "Plaza de Los Queltehues",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52005,7 +52064,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1712,
+    "id": 1714,
     "nombre": "Plaza Ho Chi Minh",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52034,7 +52093,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1713,
+    "id": 1715,
     "nombre": "Plaza San Esteban",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52063,7 +52122,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1714,
+    "id": 1716,
     "nombre": "Plaza Chicauma",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52092,7 +52151,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1715,
+    "id": 1717,
     "nombre": "Plaza Los Historiadores",
     "descripcion": "es:Plaza de los Historiadores",
     "categoria": "aire_libre",
@@ -52126,7 +52185,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1716,
+    "id": 1718,
     "nombre": "Plaza Rugendas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52155,7 +52214,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1717,
+    "id": 1719,
     "nombre": "Plaza 1° de Mayo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52184,7 +52243,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1718,
+    "id": 1720,
     "nombre": "Boulevard Pelluhue",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52217,7 +52276,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1719,
+    "id": 1721,
     "nombre": "Parque Las Perdices",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52246,7 +52305,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1720,
+    "id": 1722,
     "nombre": "Plaza Pilcomayo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52275,7 +52334,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1721,
+    "id": 1723,
     "nombre": "Parque Los Toros",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52307,7 +52366,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1722,
+    "id": 1724,
     "nombre": "Las 4 Plazas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52336,7 +52395,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1723,
+    "id": 1725,
     "nombre": "Las 4 Plazas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52365,7 +52424,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1724,
+    "id": 1726,
     "nombre": "Plaza Los Rosales",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52394,7 +52453,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1725,
+    "id": 1727,
     "nombre": "Parque Arrieta",
     "descripcion": "es:Parque Arrieta",
     "categoria": "aire_libre",
@@ -52429,7 +52488,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1726,
+    "id": 1728,
     "nombre": "Parque La Africana",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52458,7 +52517,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1727,
+    "id": 1729,
     "nombre": "Plaza Canal Troncal San Francisco",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52487,7 +52546,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1728,
+    "id": 1730,
     "nombre": "Plaza Spedaletti",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52518,7 +52577,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1729,
+    "id": 1731,
     "nombre": "Parque El Huinganal",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52551,7 +52610,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1730,
+    "id": 1732,
     "nombre": "Plaza Vecino Patricio Galindo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52583,7 +52642,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1731,
+    "id": 1733,
     "nombre": "Parque Central",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52612,7 +52671,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1732,
+    "id": 1734,
     "nombre": "Parque Mapocho Río Tramo 6",
     "descripcion": "es:Parque Mapocho Río",
     "categoria": "aire_libre",
@@ -52654,7 +52713,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1733,
+    "id": 1735,
     "nombre": "Casa Museo Alberto Bachelet Martínez (Ex-Nido 20)",
     "descripcion": "Luego de su allanamiento y ocupación en 1975 por parte de la Fuerza Aérea de Chile (FACh), fue transformada en centro de detención clandestino, tortura y exterminio durante la dictadura militar, recibiendo el nombre en clave de “Nido 20”.",
     "categoria": "cultura",
@@ -52691,7 +52750,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1734,
+    "id": 1736,
     "nombre": "Parque Mapocho Río Tramo 5",
     "descripcion": "es:Parque Mapocho Río",
     "categoria": "aire_libre",
@@ -52728,7 +52787,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1735,
+    "id": 1737,
     "nombre": "Plaza Canal Colector",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52757,7 +52816,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1736,
+    "id": 1738,
     "nombre": "Plaza Rebeca Matte",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52776,8 +52835,8 @@
       "direccion": "",
       "comuna": "Santiago",
       "region": "RM",
-      "lat": -33.4694037,
-      "lng": -70.6163138
+      "lat": -33.4694026,
+      "lng": -70.6162843
     },
     "tags": [
       "leisure",
@@ -52786,7 +52845,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1737,
+    "id": 1739,
     "nombre": "Parque Central Alameda Bernardo O'Higgins",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52815,7 +52874,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1738,
+    "id": 1740,
     "nombre": "Planetario Huechuraba \"Aristarco de Samos\"",
     "descripcion": "",
     "categoria": "entretenimiento",
@@ -52850,7 +52909,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1739,
+    "id": 1741,
     "nombre": "Plaza Alto Macul",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52879,7 +52938,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1740,
+    "id": 1742,
     "nombre": "Plaza Lacrampette",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52909,7 +52968,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1741,
+    "id": 1743,
     "nombre": "Parque Piscinas Anakena",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52943,7 +53002,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1742,
+    "id": 1744,
     "nombre": "Parque Wilson Henríquez",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -52972,7 +53031,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1743,
+    "id": 1745,
     "nombre": "Plaza de los Senderos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53005,7 +53064,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1744,
+    "id": 1746,
     "nombre": "Villa Los Volcanes",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53034,7 +53093,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1745,
+    "id": 1747,
     "nombre": "Bandejón Emperador",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53063,7 +53122,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1746,
+    "id": 1748,
     "nombre": "Patio DAEC",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53092,7 +53151,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1747,
+    "id": 1749,
     "nombre": "Patio de los Olivos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53122,7 +53181,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1748,
+    "id": 1750,
     "nombre": "Plaza Cívica de La Florida",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53156,7 +53215,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1749,
+    "id": 1751,
     "nombre": "Plaza Iván Núñez Zurita",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53185,7 +53244,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1750,
+    "id": 1752,
     "nombre": "Plazuela El Mayorazgo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53214,7 +53273,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1751,
+    "id": 1753,
     "nombre": "Parque Los Encinos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53244,7 +53303,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1752,
+    "id": 1754,
     "nombre": "Plaza Mayor de Maipú",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53274,7 +53333,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1753,
+    "id": 1755,
     "nombre": "Iglesia de Los Dominicos",
     "descripcion": "",
     "categoria": "entretenimiento",
@@ -53307,7 +53366,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1754,
+    "id": 1756,
     "nombre": "Plaza Santa Isabel",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53336,7 +53395,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1755,
+    "id": 1757,
     "nombre": "Plaza L@s Secundari@s",
     "descripcion": "Plaza cívica nombrada en homenaje a quienes despertaron a un Pueblo. 18 de Octubre de 2019.",
     "categoria": "aire_libre",
@@ -53366,7 +53425,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1756,
+    "id": 1758,
     "nombre": "Plaza Francisco de Miranda",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53395,7 +53454,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1757,
+    "id": 1759,
     "nombre": "Plaza Chilenos Ilustres",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53425,7 +53484,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1758,
+    "id": 1760,
     "nombre": "Cité Las Palmas",
     "descripcion": "",
     "categoria": "entretenimiento",
@@ -53455,7 +53514,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1759,
+    "id": 1761,
     "nombre": "Seminario Oriente",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53484,7 +53543,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1760,
+    "id": 1762,
     "nombre": "Plaza Regimiento Buín",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53513,7 +53572,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1761,
+    "id": 1763,
     "nombre": "El Esfuerzo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53542,7 +53601,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1762,
+    "id": 1764,
     "nombre": "Plaza Milán",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53571,7 +53630,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1763,
+    "id": 1765,
     "nombre": "Plaza Domingo Santa Cruz",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53600,7 +53659,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1764,
+    "id": 1766,
     "nombre": "Plaza del Torreón",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53629,7 +53688,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1765,
+    "id": 1767,
     "nombre": "Parque Los Codos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53659,7 +53718,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1766,
+    "id": 1768,
     "nombre": "Plaza Recabarren",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53688,7 +53747,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1767,
+    "id": 1769,
     "nombre": "Laberinto Parque del Recuerdo",
     "descripcion": "",
     "categoria": "entretenimiento",
@@ -53720,7 +53779,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1768,
+    "id": 1770,
     "nombre": "Virgen de la Inmaculada Concepción",
     "descripcion": "es:Santuario del Cerro San Cristóbal",
     "categoria": "entretenimiento",
@@ -53762,7 +53821,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1769,
+    "id": 1771,
     "nombre": "Bandejón Aeropuerto",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53791,7 +53850,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1770,
+    "id": 1772,
     "nombre": "Bandejón Aeropuerto",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53820,7 +53879,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1771,
+    "id": 1773,
     "nombre": "Centro Cívico La Reina",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53850,7 +53909,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1772,
+    "id": 1774,
     "nombre": "Casa de la Memoria José Domingo Cañas",
     "descripcion": "",
     "categoria": "cultura",
@@ -53882,7 +53941,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1773,
+    "id": 1775,
     "nombre": "Plaza Granada",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53911,7 +53970,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1774,
+    "id": 1776,
     "nombre": "Plaza La Palmera",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -53943,7 +54002,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1775,
+    "id": 1777,
     "nombre": "Casa Museo Delia del Carril",
     "descripcion": "",
     "categoria": "cultura",
@@ -53981,7 +54040,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1776,
+    "id": 1778,
     "nombre": "Plaza El Sauce",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54010,7 +54069,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1777,
+    "id": 1779,
     "nombre": "Plaza Los Colonizadores",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54039,7 +54098,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1778,
+    "id": 1780,
     "nombre": "Parque Los Encinos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54068,7 +54127,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1779,
+    "id": 1781,
     "nombre": "Plaza Wacquez",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54097,7 +54156,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1780,
+    "id": 1782,
     "nombre": "Plaza Las Terrazas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54126,7 +54185,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1781,
+    "id": 1783,
     "nombre": "Parque Vespucio",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54157,7 +54216,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1782,
+    "id": 1784,
     "nombre": "Parque Vespucio",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54188,7 +54247,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1783,
+    "id": 1785,
     "nombre": "Plaza Bolsillo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54221,7 +54280,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1784,
+    "id": 1786,
     "nombre": "Plaza Bernardo O'Higgins",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54256,7 +54315,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1785,
+    "id": 1787,
     "nombre": "Parque Santa Rosa",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54287,7 +54346,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1786,
+    "id": 1788,
     "nombre": "Parque Santa Rosa",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54318,7 +54377,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1787,
+    "id": 1789,
     "nombre": "Plaza Instituto Oncológico",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54350,7 +54409,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1788,
+    "id": 1790,
     "nombre": "Parque del Recuerdo",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54387,7 +54446,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1789,
+    "id": 1791,
     "nombre": "Plaza Bicentenario",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54416,7 +54475,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1790,
+    "id": 1792,
     "nombre": "Plaza Williamnson",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54446,7 +54505,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1791,
+    "id": 1793,
     "nombre": "Patio de las Cartas",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54477,7 +54536,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1792,
+    "id": 1794,
     "nombre": "Parque Colón",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54506,7 +54565,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1793,
+    "id": 1795,
     "nombre": "Bandejon Central Manquehue",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54535,7 +54594,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1794,
+    "id": 1796,
     "nombre": "Bandejon Central Manquehue",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54564,7 +54623,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1795,
+    "id": 1797,
     "nombre": "Bandejon Central Manquehue",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54593,7 +54652,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1796,
+    "id": 1798,
     "nombre": "Bandejon Central Manquehue",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54622,7 +54681,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1797,
+    "id": 1799,
     "nombre": "Bandejon Central Manquehue",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54651,7 +54710,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1798,
+    "id": 1800,
     "nombre": "Bandejon Central Manquehue",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54680,7 +54739,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1799,
+    "id": 1801,
     "nombre": "Bandejon Central Manquehue",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54709,7 +54768,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1800,
+    "id": 1802,
     "nombre": "Bandejon Central Manquehue",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54738,7 +54797,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1801,
+    "id": 1803,
     "nombre": "Parque Tobalaba - Canal San Carlos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54767,7 +54826,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1802,
+    "id": 1804,
     "nombre": "Parque Tobalaba - Canal San Carlos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54796,7 +54855,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1803,
+    "id": 1805,
     "nombre": "Parque Tobalaba - Canal San Carlos",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54825,7 +54884,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1804,
+    "id": 1806,
     "nombre": "Plaza Los Cántaros de Tanguito",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54854,7 +54913,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1805,
+    "id": 1807,
     "nombre": "Plaza El Embalse",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54883,7 +54942,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1806,
+    "id": 1808,
     "nombre": "Plaza Cádiz",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54913,7 +54972,36 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1807,
+    "id": 1809,
+    "nombre": "Plaza Miraflores",
+    "descripcion": "",
+    "categoria": "aire_libre",
+    "subcategoria": "parque",
+    "tipo": [
+      "solo",
+      "pareja",
+      "familia"
+    ],
+    "precio": {
+      "tipo": "gratis",
+      "valor": 0,
+      "moneda": "CLP"
+    },
+    "ubicacion": {
+      "direccion": "",
+      "comuna": "Santiago",
+      "region": "RM",
+      "lat": -33.5123101,
+      "lng": -70.5995631
+    },
+    "tags": [
+      "leisure",
+      "name"
+    ],
+    "fuente": "openstreetmap"
+  },
+  {
+    "id": 1810,
     "nombre": "Museo Nacional de Historia Natural",
     "descripcion": "es:Museo Nacional de Historia Natural de Chile",
     "categoria": "cultura",
@@ -54947,7 +55035,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1808,
+    "id": 1811,
     "nombre": "Parque El Ferrocarril 2",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -54978,7 +55066,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1809,
+    "id": 1812,
     "nombre": "Rotonda Alcalde José Luis Infante Larraín",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -55008,7 +55096,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1810,
+    "id": 1813,
     "nombre": "Plaza de las Palabras",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -55038,7 +55126,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1811,
+    "id": 1814,
     "nombre": "Parque Cuauhtémoc",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -55068,7 +55156,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1812,
+    "id": 1815,
     "nombre": "Parque Tres Poniente",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -55099,7 +55187,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1813,
+    "id": 1816,
     "nombre": "Antupiren Alto",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -55129,7 +55217,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1814,
+    "id": 1817,
     "nombre": "Bandejón Central Avenida Santa María",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -55160,7 +55248,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1815,
+    "id": 1818,
     "nombre": "Parque Inundable Víctor Jara",
     "descripcion": "es:Parque Intercomunal Víctor Jara",
     "categoria": "aire_libre",
@@ -55192,7 +55280,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1816,
+    "id": 1819,
     "nombre": "Plazoleta Atacama",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -55222,7 +55310,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1817,
+    "id": 1820,
     "nombre": "Plaza Avenida Quilín",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -55241,8 +55329,8 @@
       "direccion": "",
       "comuna": "Santiago",
       "region": "RM",
-      "lat": -33.4879066,
-      "lng": -70.5837353
+      "lat": -33.4879035,
+      "lng": -70.5837387
     },
     "tags": [
       "leisure",
@@ -55252,7 +55340,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1818,
+    "id": 1821,
     "nombre": "Parque Cousiño Macul",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -55282,7 +55370,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1819,
+    "id": 1822,
     "nombre": "Plaza de Armas de Santiago de Chile",
     "descripcion": "es:Plaza de Armas de Santiago",
     "categoria": "entretenimiento",
@@ -55316,7 +55404,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1820,
+    "id": 1823,
     "nombre": "Parque Lo Errázuriz",
     "descripcion": "es:Parque Lo Errázuriz",
     "categoria": "aire_libre",
@@ -55355,7 +55443,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1821,
+    "id": 1824,
     "nombre": "Plaza a la Aviación",
     "descripcion": "es:Plaza a la Aviación",
     "categoria": "aire_libre",
@@ -55393,7 +55481,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1822,
+    "id": 1825,
     "nombre": "Museo de Santiago - Casa Colorada",
     "descripcion": "",
     "categoria": "cultura",
@@ -55429,7 +55517,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1823,
+    "id": 1826,
     "nombre": "Parque Balmaceda",
     "descripcion": "es:Parque Balmaceda",
     "categoria": "aire_libre",
@@ -55468,7 +55556,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1824,
+    "id": 1827,
     "nombre": "Parque Uruguay",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -55498,7 +55586,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1825,
+    "id": 1828,
     "nombre": "Parque Santa Elena de Maipú",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -55528,7 +55616,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1826,
+    "id": 1829,
     "nombre": "Casa de Velasco",
     "descripcion": "es:Casa de Velasco (Santiago de Chile)",
     "categoria": "cultura",
@@ -55568,7 +55656,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1827,
+    "id": 1830,
     "nombre": "Parque Puerta de Hierro",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -55598,7 +55686,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1828,
+    "id": 1831,
     "nombre": "Bandejón Central Alameda Bernardo O'Higgins",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -55628,7 +55716,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1829,
+    "id": 1832,
     "nombre": "Parque Almagro",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -55659,7 +55747,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1830,
+    "id": 1833,
     "nombre": "Palacio Larraín Mancheño",
     "descripcion": "es:Palacio Larraín",
     "categoria": "entretenimiento",
@@ -55699,7 +55787,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1831,
+    "id": 1834,
     "nombre": "Parque Ferrocarril",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -55730,7 +55818,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1832,
+    "id": 1835,
     "nombre": "Plaza Navidad",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -55760,7 +55848,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1833,
+    "id": 1836,
     "nombre": "Parque Juan XXIII",
     "descripcion": "es:Parque Juan XXIII",
     "categoria": "aire_libre",
@@ -55793,7 +55881,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1834,
+    "id": 1837,
     "nombre": "Plaza Intercomunal Macul",
     "descripcion": "",
     "categoria": "aire_libre",
@@ -55823,7 +55911,7 @@
     "fuente": "openstreetmap"
   },
   {
-    "id": 1835,
+    "id": 1838,
     "nombre": "Museo Taller",
     "descripcion": "",
     "categoria": "cultura",
