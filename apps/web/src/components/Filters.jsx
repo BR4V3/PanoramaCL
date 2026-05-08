@@ -1,3 +1,5 @@
+import { useI18n } from '../i18n/I18nProvider';
+
 function Filters({
   filters,
   categoryOptions,
@@ -7,22 +9,24 @@ function Filters({
   onLocateMe,
   locating
 }) {
+  const { t } = useI18n();
+
   return (
-    <section className="panel-section">
+    <section className="panel-section filters-panel">
       <div className="section-headline">
-        <h2>Filters</h2>
+        <h2>{t('filtersTitle')}</h2>
         <button type="button" className="text-button" onClick={onReset}>
-          Clear
+          {t('filtersClear')}
         </button>
       </div>
 
       <label className="field">
-        Category
+        {t('filtersCategory')}
         <select
           value={filters.category}
           onChange={(event) => onFilterChange('category', event.target.value)}
         >
-          <option value="all">All categories</option>
+          <option value="all">{t('filtersAllCategories')}</option>
           {categoryOptions.map((category) => (
             <option key={category} value={category}>
               {category}
@@ -32,9 +36,9 @@ function Filters({
       </label>
 
       <label className="field">
-        Type
+        {t('filtersType')}
         <select value={filters.type} onChange={(event) => onFilterChange('type', event.target.value)}>
-          <option value="all">Any type</option>
+          <option value="all">{t('filtersAnyType')}</option>
           {typeOptions.map((type) => (
             <option key={type} value={type}>
               {type}
@@ -43,17 +47,18 @@ function Filters({
         </select>
       </label>
 
-      <label className="field field-inline">
+      <label className="field field-inline near-me-toggle">
         <input
+          className="near-me-checkbox"
           type="checkbox"
           checked={filters.nearMe}
           onChange={(event) => onFilterChange('nearMe', event.target.checked)}
         />
-        Enable near me radius
+        <span>{t('filtersEnableNearMe')}</span>
       </label>
 
       <label className="field">
-        Distance radius: {filters.distanceKm} km
+        {t('filtersDistanceRadius', { km: filters.distanceKm })}
         <input
           type="range"
           min="1"
@@ -66,7 +71,7 @@ function Filters({
       </label>
 
       <button type="button" className="primary-button" onClick={onLocateMe} disabled={locating}>
-        {locating ? 'Finding your location...' : 'Near me'}
+        {locating ? t('filtersFindingLocation') : t('filtersNearMe')}
       </button>
     </section>
   );

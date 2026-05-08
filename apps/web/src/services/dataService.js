@@ -1,3 +1,5 @@
+import { getEmbeddedVideoUrl } from './videoService';
+
 const CATEGORY_MAP = {
   park: 'aire_libre',
   museo: 'cultura',
@@ -38,6 +40,14 @@ function sanitizeImages(images, fallbackImage) {
   return merged.length > 0 ? Array.from(new Set(merged)) : [PLACEHOLDER_IMAGE];
 }
 
+function sanitizeVideoUrl(videoUrl) {
+  if (typeof videoUrl !== 'string') {
+    return '';
+  }
+
+  return getEmbeddedVideoUrl(videoUrl) ? videoUrl.trim() : '';
+}
+
 function hasValidCoordinates(location) {
   return Number.isFinite(location.lat) && Number.isFinite(location.lng);
 }
@@ -68,6 +78,7 @@ function normalizeOsmPanorama(item) {
     featured: false,
     tags: Array.isArray(item.tags) ? item.tags : [],
     images: sanitizeImages(item.imagenes, item.imagen),
+    videoUrl: '',
     location: {
       address: item.ubicacion?.direccion ?? '',
       commune: item.ubicacion?.comuna ?? 'Santiago',
@@ -96,6 +107,7 @@ export function normalizeCustomPanorama(item, index = 0) {
     featured: true,
     tags: Array.isArray(item.tags) ? item.tags : ['featured'],
     images: sanitizeImages(item.images, item.image),
+    videoUrl: sanitizeVideoUrl(item.videoUrl),
     location: {
       address: item.location?.address ?? '',
       commune: item.location?.commune ?? 'Santiago',

@@ -1,8 +1,8 @@
 import { useEffect, useMemo } from 'react';
 import L from 'leaflet';
-import { MapContainer, Marker, Popup, TileLayer, useMap, useMapEvents } from 'react-leaflet';
+import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-markercluster';
-import MarkerPopup from './MarkerPopup';
+import { useI18n } from '../i18n/I18nProvider';
 
 const SANTIAGO_CENTER = [-33.4489, -70.6693];
 const CATEGORY_COLORS = {
@@ -12,7 +12,7 @@ const CATEGORY_COLORS = {
   default: '#8a8f98'
 };
 
-function MapCenterUpdater({ userPosition, selectedPlace }) {
+function MapCenterUpdater({ userPosition }) {
   const map = useMap();
 
   useEffect(() => {
@@ -25,29 +25,21 @@ function MapCenterUpdater({ userPosition, selectedPlace }) {
     });
   }, [map, userPosition]);
 
+  return null;
+}
+
+function SelectedPlaceFocus({ selectedPlace }) {
+  const map = useMap();
+
   useEffect(() => {
     if (!selectedPlace) {
       return;
     }
 
-    map.flyTo([selectedPlace.location.lat, selectedPlace.location.lng], 14, {
+    map.flyTo([selectedPlace.location.lat, selectedPlace.location.lng], 18, {
       duration: 0.9
     });
   }, [map, selectedPlace]);
-
-  return null;
-}
-
-function AdminMapPicker({ onMapPick }) {
-  useMapEvents({
-    click(event) {
-      if (!onMapPick) {
-        return;
-      }
-
-      onMapPick({ lat: event.latlng.lat, lng: event.latlng.lng });
-    }
-  });
 
   return null;
 }
@@ -71,33 +63,87 @@ function createCategoryIcon(category, isActive, isFeatured) {
   });
 }
 
-function MapView({ panoramas, userPosition, selectedPlace, onSelectPlace, onMapPick }) {
-  const markers = useMemo(
+function createUserLocationIcon() {
+  return L.divIcon({
+    className: 'user-location-wrapper',
+    html: '<span class="user-location-dot"></span>',
+    iconSize: [18, 18],
+    iconAnchor: [9, 9]
+  });
+}
+
+function MapView({ panoramas, userPosition, selectedPlace, onSelectPlace }) {
+  const { t } = useI18n();
+  const userLocationIcon = useMemo(() => createUserLocationIcon(), []);
+  const selectedId = selectedPlace?.id ?? null;
+
+  const selectedMarker = useMemo(() => {
+    if (!selectedId) {
+      return null;
+    }
+
+    const selectedFromList = panoramas.find((item) => item.id === selectedId);
+    if (!selectedFromList) {
+      return null;
+    }
+
+    return {
+      ...selectedFromList,
+      icon: createCategoryIcon(
+        selectedFromList.category,
+        true,
+        selectedFromList.featured || selectedFromList.source === 'custom'
+      )
+    };
+  }, [panoramas, selectedId]);
+
+  const clusterMarkers = useMemo(
     () =>
-      panoramas.map((panorama) => ({
-        ...panorama,
-        icon: createCategoryIcon(
-          panorama.category,
-          selectedPlace?.id === panorama.id,
-          panorama.featured || panorama.source === 'custom'
-        )
-      })),
-    [panoramas, selectedPlace]
+      panoramas
+        .filter((panorama) => panorama.id !== selectedId)
+        .map((panorama) => ({
+          ...panorama,
+          icon: createCategoryIcon(
+            panorama.category,
+            false,
+            panorama.featured || panorama.source === 'custom'
+          )
+        })),
+    [panoramas, selectedId]
   );
 
   return (
-    <section className="map-shell" aria-label="Interactive map of Santiago panoramas">
+    <section className="map-shell" aria-label={t('mapAriaLabel')}>
       <MapContainer center={SANTIAGO_CENTER} zoom={12} scrollWheelZoom className="map-view">
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
 
-        <MapCenterUpdater userPosition={userPosition} selectedPlace={selectedPlace} />
-        <AdminMapPicker onMapPick={onMapPick} />
+        <MapCenterUpdater userPosition={userPosition} />
+        <SelectedPlaceFocus selectedPlace={selectedPlace} />
+
+
+        {userPosition ? (
+          <Marker position={[userPosition.lat, userPosition.lng]} icon={userLocationIcon}>
+            <Popup>{t('mapUserLocation')}</Popup>
+          </Marker>
+        ) : null}
+
+        {selectedMarker ? (
+          <Marker
+            key={`selected-${selectedMarker.id}`}
+            position={[selectedMarker.location.lat, selectedMarker.location.lng]}
+            icon={selectedMarker.icon}
+            zIndexOffset={1000}
+            eventHandlers={{
+              click: () => onSelectPlace?.(selectedMarker)
+            }}
+          />
+        ) : null}
 
         <MarkerClusterGroup chunkedLoading>
-          {markers.map((panorama) => (
+          {clusterMarkers.map((panorama) => (
             <Marker
               key={panorama.id}
               position={[panorama.location.lat, panorama.location.lng]}
@@ -105,11 +151,7 @@ function MapView({ panoramas, userPosition, selectedPlace, onSelectPlace, onMapP
               eventHandlers={{
                 click: () => onSelectPlace?.(panorama)
               }}
-            >
-              <Popup>
-                <MarkerPopup panorama={panorama} />
-              </Popup>
-            </Marker>
+            />
           ))}
         </MarkerClusterGroup>
       </MapContainer>

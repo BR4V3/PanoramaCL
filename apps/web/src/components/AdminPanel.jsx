@@ -1,4 +1,6 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { useI18n } from '../i18n/I18nProvider';
+import { getEmbeddedVideoUrl } from '../services/videoService';
 
 const EMPTY_FORM = {
   name: '',
@@ -9,12 +11,12 @@ const EMPTY_FORM = {
   typePareja: true,
   typeFamilia: true,
   typeAmigos: false,
-  price: 0,
   address: '',
   commune: 'Santiago',
   lat: '',
   lng: '',
-  images: ''
+  images: '',
+  videoUrl: ''
 };
 
 function buildTypes(form) {
@@ -66,16 +68,17 @@ function formFromPanorama(panorama) {
     typePareja: types.has('pareja'),
     typeFamilia: types.has('familia'),
     typeAmigos: types.has('amigos'),
-    price: panorama.price || 0,
     address: panorama.location?.address || '',
     commune: panorama.location?.commune || 'Santiago',
     lat: panorama.location?.lat || '',
     lng: panorama.location?.lng || '',
-    images: toImageString(panorama.images)
+    images: toImageString(panorama.images),
+    videoUrl: panorama.videoUrl || ''
   };
 }
 
-function AdminPanel({ panoramas, pickedLocation, selectedPlace, adminNotice, onSelectPlace, onCreate, onUpdate, onDelete }) {
+function AdminPanel({ panoramas, selectedPlace, adminNotice, onSelectPlace, onCreate, onUpdate, onDelete }) {
+  const { t } = useI18n();
   const [selectedId, setSelectedId] = useState(null);
   const [form, setForm] = useState(EMPTY_FORM);
 
@@ -83,6 +86,8 @@ function AdminPanel({ panoramas, pickedLocation, selectedPlace, adminNotice, onS
     () => panoramas.find((item) => item.id === selectedId) ?? null,
     [panoramas, selectedId]
   );
+  const embeddedVideoUrl = useMemo(() => getEmbeddedVideoUrl(form.videoUrl), [form.videoUrl]);
+  const hasInvalidVideoUrl = form.videoUrl.trim().length > 0 && !embeddedVideoUrl;
 
   const handleInput = (key, value) => {
     setForm((current) => ({ ...current, [key]: value }));
@@ -92,11 +97,33 @@ function AdminPanel({ panoramas, pickedLocation, selectedPlace, adminNotice, onS
     setForm((current) => ({ ...current, [key]: !current[key] }));
   };
 
-  const handleSelectPanorama = (panorama) => {
-    setSelectedId(panorama.id);
-    setForm(formFromPanorama(panorama));
-    onSelectPlace?.(panorama);
-  };
+  useEffect(() => {
+    if (!selectedPlace) {
+      return;
+    }
+
+    const matchingPanorama = panoramas.find((item) => item.id === selectedPlace.id);
+
+    if (!matchingPanorama) {
+      return;
+    }
+
+    setSelectedId(matchingPanorama.id);
+    setForm(formFromPanorama(matchingPanorama));
+  }, [panoramas, selectedPlace]);
+
+  useEffect(() => {
+    if (!selectedId) {
+      return;
+    }
+
+    const stillExists = panoramas.some((item) => item.id === selectedId);
+
+    if (!stillExists) {
+      setSelectedId(null);
+      setForm(EMPTY_FORM);
+    }
+  }, [panoramas, selectedId]);
 
   const resetForm = () => {
     setSelectedId(null);
@@ -105,17 +132,18 @@ function AdminPanel({ panoramas, pickedLocation, selectedPlace, adminNotice, onS
 
   const buildPayload = () => {
     const payload = {
-      name: form.name.trim() || 'Sin nombre',
+      name: form.name.trim() || t('unnamedPanorama'),
       description: form.description.trim(),
       category: form.category,
       subcategory: form.subcategory.trim() || 'atraccion',
       types: buildTypes(form),
       type: buildTypes(form)[0],
-      price: Number(form.price) || 0,
+      price: 0,
       source: 'admin',
       tags: ['admin'],
       featured: true,
       images: fromImageString(form.images),
+      videoUrl: form.videoUrl.trim(),
       location: {
         address: form.address.trim(),
         commune: form.commune.trim() || 'Santiago',
@@ -130,6 +158,10 @@ function AdminPanel({ panoramas, pickedLocation, selectedPlace, adminNotice, onS
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
+    if (hasInvalidVideoUrl) {
+      return;
+    }
 
     const payload = buildPayload();
 
@@ -155,22 +187,10 @@ function AdminPanel({ panoramas, pickedLocation, selectedPlace, adminNotice, onS
     resetForm();
   };
 
-  const applyPickedLocation = () => {
-    if (!pickedLocation) {
-      return;
-    }
-
-    setForm((current) => ({
-      ...current,
-      lat: pickedLocation.lat,
-      lng: pickedLocation.lng
-    }));
-  };
-
   return (
     <section className="panel-section panel-admin">
       <div className="section-headline">
-        <h2>Admin panel</h2>
+        <h2>{t('adminPanelTitle')}</h2>
         <span className="pill">{panoramas.length}</span>
       </div>
 
@@ -178,17 +198,17 @@ function AdminPanel({ panoramas, pickedLocation, selectedPlace, adminNotice, onS
 
       <form className="admin-form" onSubmit={handleSubmit}>
         <label className="field">
-          Name
+          {t('adminName')}
           <input
             type="text"
             value={form.name}
             onChange={(event) => handleInput('name', event.target.value)}
-            placeholder="Panorama name"
+            placeholder={t('adminNamePlaceholder')}
           />
         </label>
 
         <label className="field">
-          Description
+          {t('adminDescription')}
           <textarea
             value={form.description}
             onChange={(event) => handleInput('description', event.target.value)}
@@ -198,7 +218,7 @@ function AdminPanel({ panoramas, pickedLocation, selectedPlace, adminNotice, onS
 
         <div className="admin-grid">
           <label className="field">
-            Category
+            {t('adminCategory')}
             <select value={form.category} onChange={(event) => handleInput('category', event.target.value)}>
               <option value="aire_libre">aire_libre</option>
               <option value="cultura">cultura</option>
@@ -207,7 +227,7 @@ function AdminPanel({ panoramas, pickedLocation, selectedPlace, adminNotice, onS
           </label>
 
           <label className="field">
-            Subcategory
+            {t('adminSubcategory')}
             <input
               type="text"
               value={form.subcategory}
@@ -223,7 +243,7 @@ function AdminPanel({ panoramas, pickedLocation, selectedPlace, adminNotice, onS
               checked={form.typeSolo}
               onChange={() => handleToggleType('typeSolo')}
             />
-            solo
+            {t('adminTypeSolo')}
           </label>
           <label>
             <input
@@ -231,7 +251,7 @@ function AdminPanel({ panoramas, pickedLocation, selectedPlace, adminNotice, onS
               checked={form.typePareja}
               onChange={() => handleToggleType('typePareja')}
             />
-            pareja
+            {t('adminTypePareja')}
           </label>
           <label>
             <input
@@ -239,7 +259,7 @@ function AdminPanel({ panoramas, pickedLocation, selectedPlace, adminNotice, onS
               checked={form.typeFamilia}
               onChange={() => handleToggleType('typeFamilia')}
             />
-            familia
+            {t('adminTypeFamilia')}
           </label>
           <label>
             <input
@@ -247,33 +267,21 @@ function AdminPanel({ panoramas, pickedLocation, selectedPlace, adminNotice, onS
               checked={form.typeAmigos}
               onChange={() => handleToggleType('typeAmigos')}
             />
-            amigos
-          </label>
-        </div>
-
-        <div className="admin-grid">
-          <label className="field">
-            Price CLP
-            <input
-              type="number"
-              min="0"
-              value={form.price}
-              onChange={(event) => handleInput('price', event.target.value)}
-            />
-          </label>
-
-          <label className="field">
-            Commune
-            <input
-              type="text"
-              value={form.commune}
-              onChange={(event) => handleInput('commune', event.target.value)}
-            />
+            {t('adminTypeAmigos')}
           </label>
         </div>
 
         <label className="field">
-          Address
+          {t('adminCommune')}
+          <input
+            type="text"
+            value={form.commune}
+            onChange={(event) => handleInput('commune', event.target.value)}
+          />
+        </label>
+
+        <label className="field">
+          {t('adminAddress')}
           <input
             type="text"
             value={form.address}
@@ -281,9 +289,10 @@ function AdminPanel({ panoramas, pickedLocation, selectedPlace, adminNotice, onS
           />
         </label>
 
+
         <div className="admin-grid">
           <label className="field">
-            Latitude
+            {t('adminLatitude')}
             <input
               type="number"
               step="any"
@@ -293,7 +302,7 @@ function AdminPanel({ panoramas, pickedLocation, selectedPlace, adminNotice, onS
           </label>
 
           <label className="field">
-            Longitude
+            {t('adminLongitude')}
             <input
               type="number"
               step="any"
@@ -304,42 +313,50 @@ function AdminPanel({ panoramas, pickedLocation, selectedPlace, adminNotice, onS
         </div>
 
         <label className="field">
-          Images URLs (comma separated)
+          {t('adminImages')}
           <input
             type="text"
             value={form.images}
             onChange={(event) => handleInput('images', event.target.value)}
-            placeholder="https://..., https://..."
+            placeholder={t('adminImagesPlaceholder')}
           />
         </label>
 
-        <button type="button" className="text-button" onClick={applyPickedLocation} disabled={!pickedLocation}>
-          Use point selected on map
-        </button>
+        <label className="field">
+          {t('adminVideoUrl')}
+          <input
+            type="url"
+            value={form.videoUrl}
+            onChange={(event) => handleInput('videoUrl', event.target.value)}
+            placeholder={t('adminVideoPlaceholder')}
+          />
+        </label>
+
+        {hasInvalidVideoUrl ? <p className="field-feedback field-feedback-error">{t('adminVideoInvalid')}</p> : null}
+
+        {embeddedVideoUrl ? (
+          <div className="admin-video-preview">
+            <p className="field-feedback">{t('adminVideoPreview')}</p>
+            <iframe
+              className="detail-video"
+              src={embeddedVideoUrl}
+              title={t('adminVideoPreview')}
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          </div>
+        ) : null}
 
         <div className="admin-actions">
-          <button type="submit" className="primary-button">{selectedPanorama ? 'Update' : 'Create'}</button>
-          <button type="button" className="text-button" onClick={resetForm}>Clear</button>
+          <button type="submit" className="primary-button">{selectedPanorama ? t('adminUpdate') : t('adminCreate')}</button>
+          <button type="button" className="text-button" onClick={resetForm}>{t('adminClear')}</button>
           <button type="button" className="danger-button" onClick={handleDelete} disabled={!selectedPanorama}>
-            Delete
+            {t('adminDelete')}
           </button>
         </div>
       </form>
-
-      <ul className="admin-list">
-        {panoramas.map((panorama) => (
-          <li key={panorama.id}>
-            <button
-              type="button"
-              onClick={() => handleSelectPanorama(panorama)}
-              className={selectedPlace?.id === panorama.id ? 'is-selected' : ''}
-            >
-              <strong>{panorama.name}</strong>
-              <small>{panorama.location.commune} · {panorama.category}</small>
-            </button>
-          </li>
-        ))}
-      </ul>
     </section>
   );
 }

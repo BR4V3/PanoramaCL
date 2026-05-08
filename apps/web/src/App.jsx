@@ -1,15 +1,21 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import AdminPanel from './components/AdminPanel';
+import AdminPanoramaTable from './components/AdminPanoramaTable';
 import DetailPanel from './components/DetailPanel';
 import Filters from './components/Filters';
+import LoginPanel from './components/LoginPanel';
 import MapView from './components/MapView';
 import Sidebar from './components/Sidebar';
+import { useI18n } from './i18n/I18nProvider';
 import { filterPanoramas, getOsmPanoramas, normalizeCustomPanorama } from './services/dataService';
 import {
   createCustomPanorama,
   listCustomPanoramas,
+  observeAuthState,
   removeCustomPanorama,
+  signInAdmin,
+  signOutAdmin,
   updateCustomPanorama
 } from './services/firebaseService';
 
@@ -22,28 +28,45 @@ const DEFAULT_FILTERS = {
 
 function AppNav() {
   const location = useLocation();
+  const { t } = useI18n();
+  const isAdminRoute = location.pathname === '/admin';
+  const isExploreActive = location.pathname === '/' || location.pathname === '/login';
 
   return (
     <div className="view-mode-switch" role="tablist" aria-label="View mode">
-      <Link to="/" className={location.pathname === '/' ? 'mode-button is-active' : 'mode-button'}>
-        Explore
-      </Link>
-      <Link to="/admin" className={location.pathname === '/admin' ? 'mode-button is-active' : 'mode-button'}>
-        Admin
+      <Link to="/" className={isExploreActive ? 'mode-button is-active' : 'mode-button'}>
+        {isAdminRoute ? (
+          <>
+            <span className="mode-button-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img" aria-label="Back">
+                <path d="M15 18l-6-6 6-6" />
+              </svg>
+            </span>
+            {t('navBack')}
+          </>
+        ) : (
+          t('navExplore')
+        )}
       </Link>
     </div>
   );
 }
 
 function App() {
+  const location = useLocation();
+  const { locale, t, toggleLocale } = useI18n();
   const [osmData, setOsmData] = useState([]);
   const [customData, setCustomData] = useState([]);
   const [selectedPlace, setSelectedPlace] = useState(null);
-  const [pickedLocation, setPickedLocation] = useState(null);
   const [adminNotice, setAdminNotice] = useState('');
+  const [authUser, setAuthUser] = useState(null);
+  const [authLoading, setAuthLoading] = useState(true);
+  const [authSubmitting, setAuthSubmitting] = useState(false);
+  const [authError, setAuthError] = useState('');
   const [filters, setFilters] = useState(DEFAULT_FILTERS);
   const [userPosition, setUserPosition] = useState(null);
   const [locating, setLocating] = useState(false);
+  const [isAdminTableOpen, setIsAdminTableOpen] = useState(false);
 
   useEffect(() => {
     const loadPanoramas = async () => {
@@ -56,11 +79,25 @@ function App() {
 
   useEffect(() => {
     const loadCustomPanoramas = async () => {
-      const docs = await listCustomPanoramas();
-      setCustomData(docs.map((item, index) => normalizeCustomPanorama(item, index)).filter(Boolean));
+      try {
+        const docs = await listCustomPanoramas();
+        setCustomData(docs.map((item, index) => normalizeCustomPanorama(item, index)).filter(Boolean));
+      } catch {
+        setCustomData([]);
+      }
     };
 
     loadCustomPanoramas();
+  }, []);
+
+  useEffect(() => {
+    const unsubscribe = observeAuthState((user) => {
+      setAuthUser(user);
+      setAuthLoading(false);
+      setAuthError('');
+    });
+
+    return unsubscribe;
   }, []);
 
   const mergedData = useMemo(() => [...osmData, ...customData], [osmData, customData]);
@@ -87,6 +124,12 @@ function App() {
       setSelectedPlace(null);
     }
   }, [mergedData, selectedPlace]);
+
+  useEffect(() => {
+    if (location.pathname !== '/admin') {
+      setIsAdminTableOpen(false);
+    }
+  }, [location.pathname]);
 
   const handleFilterChange = (key, value) => {
     setFilters((current) => ({ ...current, [key]: value }));
@@ -125,7 +168,7 @@ function App() {
       setCustomData(docs.map((item, index) => normalizeCustomPanorama(item, index)).filter(Boolean));
       setAdminNotice('');
     } catch {
-      setAdminNotice('No se pudo sincronizar customData desde Firestore.');
+      setAdminNotice(t('adminSyncError'));
     }
   };
 
@@ -134,7 +177,7 @@ function App() {
       await createCustomPanorama(payload);
       await refreshCustomData();
     } catch {
-      setAdminNotice('No se pudo crear el panorama. Revisa la configuracion de Firebase.');
+      setAdminNotice(t('adminCreateError'));
     }
   };
 
@@ -143,7 +186,7 @@ function App() {
       await updateCustomPanorama(panorama.firestoreId, payload);
       await refreshCustomData();
     } catch {
-      setAdminNotice('No se pudo actualizar el panorama. Revisa la configuracion de Firebase.');
+      setAdminNotice(t('adminUpdateError'));
     }
   };
 
@@ -158,7 +201,7 @@ function App() {
       await removeCustomPanorama(panorama.firestoreId);
       await refreshCustomData();
     } catch {
-      setAdminNotice('No se pudo eliminar el panorama. Revisa la configuracion de Firebase.');
+      setAdminNotice(t('adminDeleteError'));
     }
   };
 
@@ -166,17 +209,73 @@ function App() {
     setSelectedPlace(place);
   };
 
+  const handleSelectFromAdminTable = (place) => {
+    setSelectedPlace(place);
+
+    if (window.matchMedia('(max-width: 950px)').matches) {
+      setIsAdminTableOpen(false);
+    }
+  };
+
+  const handleLogin = async (email, password) => {
+    setAuthSubmitting(true);
+    setAuthError('');
+
+    try {
+      await signInAdmin(email, password);
+    } catch {
+      setAuthError(t('authLoginError'));
+    } finally {
+      setAuthSubmitting(false);
+    }
+  };
+
+  const handleLogout = async () => {
+    try {
+      await signOutAdmin();
+    } catch {
+      setAuthError(t('authLogoutError'));
+    }
+  };
+
   const customOnlyData = useMemo(() => mergedData.filter((item) => item.source === 'custom'), [mergedData]);
+  const accountLink = authUser ? '/admin' : '/login';
+  const accountLabel = authUser ? t('accountAdminPanel') : t('accountAccess');
+  const nextLocaleLabel = locale === 'es' ? 'English' : 'Espanol';
+  const languageFlag = locale === 'es' ? '🇪🇸' : '🇬🇧';
 
   return (
     <div className="app-shell">
+      <button
+        type="button"
+        className="language-bubble"
+        onClick={toggleLocale}
+        aria-label={nextLocaleLabel}
+        title={nextLocaleLabel}
+      >
+        {languageFlag}
+      </button>
+
+      <Link to={accountLink} className="account-bubble" aria-label={accountLabel}>
+        <span className="account-bubble-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" role="img" aria-label="User">
+            <circle cx="12" cy="8" r="4" />
+            <path d="M4 20a8 8 0 0 1 16 0" />
+          </svg>
+        </span>
+      </Link>
+
+      <footer className="app-version" aria-label="App version">
+        v{import.meta.env.VITE_APP_VERSION || '0.1.0'}
+      </footer>
+
       <aside className="control-panel">
         <header className="app-header">
-          <p>Santiago de Chile</p>
-          <h1>Discover panoramas on a calm interactive map</h1>
+          <p>{t('appCity')}</p>
+          <h1>{t('appTitle')}</h1>
         </header>
 
-        <AppNav />
+        {authUser ? <AppNav /> : null}
 
         <Routes>
           <Route
@@ -198,20 +297,39 @@ function App() {
             }
           />
           <Route
+            path="/login"
+            element={
+              <LoginPanel
+                authUser={authUser}
+                isSubmitting={authSubmitting}
+                errorMessage={authError}
+                onLogin={handleLogin}
+                onLogout={handleLogout}
+              />
+            }
+          />
+          <Route
             path="/admin"
             element={
-              <>
-                <AdminPanel
-                  panoramas={customOnlyData}
-                  pickedLocation={pickedLocation}
-                  selectedPlace={selectedPlace}
-                  adminNotice={adminNotice}
-                  onSelectPlace={handleSelectPlace}
-                  onCreate={handleCreatePanorama}
-                  onUpdate={handleUpdatePanorama}
-                  onDelete={handleDeletePanorama}
-                />
-              </>
+              authLoading ? (
+                <section className="panel-section login-panel">
+                  <h2>{t('authCheckingSession')}</h2>
+                </section>
+              ) : authUser ? (
+                <>
+                  <AdminPanel
+                    panoramas={customOnlyData}
+                    selectedPlace={selectedPlace}
+                    adminNotice={adminNotice}
+                    onSelectPlace={handleSelectPlace}
+                    onCreate={handleCreatePanorama}
+                    onUpdate={handleUpdatePanorama}
+                    onDelete={handleDeletePanorama}
+                  />
+                </>
+              ) : (
+                <Navigate to="/login" replace />
+              )
             }
           />
           <Route path="*" element={<Navigate to="/" replace />} />
@@ -219,6 +337,38 @@ function App() {
       </aside>
 
       <main className="map-panel">
+        {location.pathname === '/admin' && authUser ? (
+          <>
+            <button
+              type="button"
+              className="admin-map-bubble"
+              aria-label={t('adminBubbleLabel')}
+              onClick={() => setIsAdminTableOpen((current) => !current)}
+            >
+              <span className="admin-map-bubble-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img" aria-label={t('adminTableIconLabel')}>
+                  <path d="M4 6h16" />
+                  <path d="M4 12h16" />
+                  <path d="M4 18h16" />
+                  <path d="M9 4v16" />
+                </svg>
+              </span>
+            </button>
+
+            {isAdminTableOpen ? (
+              <div className="admin-table-floating">
+                <AdminPanoramaTable
+                  panoramas={customOnlyData}
+                  selectedId={selectedPlace?.id}
+                  onSelect={handleSelectFromAdminTable}
+                  onDelete={handleDeletePanorama}
+                  onClose={() => setIsAdminTableOpen(false)}
+                />
+              </div>
+            ) : null}
+          </>
+        ) : null}
+
         <Routes>
           <Route
             path="/"
@@ -232,23 +382,47 @@ function App() {
             }
           />
           <Route
-            path="/admin"
+            path="/login"
             element={
               <MapView
-                panoramas={mergedData}
+                panoramas={filteredData}
                 userPosition={userPosition}
                 selectedPlace={selectedPlace}
                 onSelectPlace={handleSelectPlace}
-                onMapPick={setPickedLocation}
               />
+            }
+          />
+          <Route
+            path="/admin"
+            element={
+              authLoading ? (
+                <MapView
+                  panoramas={filteredData}
+                  userPosition={userPosition}
+                  selectedPlace={selectedPlace}
+                  onSelectPlace={handleSelectPlace}
+                />
+              ) : authUser ? (
+                <MapView
+                  panoramas={mergedData}
+                  userPosition={userPosition}
+                  selectedPlace={selectedPlace}
+                  onSelectPlace={handleSelectPlace}
+
+                />
+              ) : (
+                <Navigate to="/login" replace />
+              )
             }
           />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
 
-        <div className="map-detail-floating">
-          <DetailPanel panorama={selectedPlace} />
-        </div>
+        {location.pathname !== '/admin' ? (
+          <div className="map-detail-floating">
+            <DetailPanel panorama={selectedPlace} />
+          </div>
+        ) : null}
       </main>
     </div>
   );

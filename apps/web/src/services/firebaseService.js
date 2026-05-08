@@ -1,4 +1,5 @@
 import { initializeApp, getApps } from 'firebase/app';
+import { getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut } from 'firebase/auth';
 import {
   addDoc,
   collection,
@@ -11,6 +12,7 @@ import {
   serverTimestamp,
   updateDoc
 } from 'firebase/firestore';
+import { getEmbeddedVideoUrl } from './videoService';
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
@@ -25,13 +27,53 @@ function isFirebaseConfigured() {
   return Boolean(firebaseConfig.apiKey && firebaseConfig.projectId && firebaseConfig.appId);
 }
 
-function getDb() {
+function getFirebaseApp() {
   if (!isFirebaseConfigured()) {
     return null;
   }
 
-  const app = getApps().length ? getApps()[0] : initializeApp(firebaseConfig);
+  return getApps().length ? getApps()[0] : initializeApp(firebaseConfig);
+}
+
+function getDb() {
+  const app = getFirebaseApp();
+
+  if (!app) {
+    return null;
+  }
+
   return getFirestore(app);
+}
+
+export function observeAuthState(onChange) {
+  const app = getFirebaseApp();
+
+  if (!app) {
+    onChange(null);
+    return () => {};
+  }
+
+  return onAuthStateChanged(getAuth(app), onChange);
+}
+
+export async function signInAdmin(email, password) {
+  const app = getFirebaseApp();
+
+  if (!app) {
+    throw new Error('Firebase is not configured. Set VITE_FIREBASE_* variables.');
+  }
+
+  return signInWithEmailAndPassword(getAuth(app), email, password);
+}
+
+export async function signOutAdmin() {
+  const app = getFirebaseApp();
+
+  if (!app) {
+    throw new Error('Firebase is not configured. Set VITE_FIREBASE_* variables.');
+  }
+
+  await signOut(getAuth(app));
 }
 
 function sanitizeImages(images = []) {
@@ -50,6 +92,14 @@ function sanitizeTypes(types = []) {
   return Array.from(new Set(types));
 }
 
+function sanitizeVideoUrl(videoUrl) {
+  if (typeof videoUrl !== 'string') {
+    return '';
+  }
+
+  return getEmbeddedVideoUrl(videoUrl) ? videoUrl.trim() : '';
+}
+
 function buildDocPayload(payload) {
   return {
     name: payload.name,
@@ -62,6 +112,7 @@ function buildDocPayload(payload) {
     source: 'custom',
     featured: true,
     images: sanitizeImages(payload.images),
+    videoUrl: sanitizeVideoUrl(payload.videoUrl),
     location: {
       address: payload.location?.address ?? '',
       commune: payload.location?.commune ?? 'Santiago',
